@@ -1,0 +1,25 @@
+{
+  "name": "evops-dummy-data",
+  "version": "0.0.0",
+  "scripts": {
+    "start": "buf generate --clean && tsx src/main.ts",
+    "format": "prettier --write ./",
+    "format:check": "prettier --check ./"
+  },
+  "type": "module",
+  "packageManager": "pnpm@10.12.1",
+  "dependencies": {
+    "@bufbuild/buf": "^1.55.1",
+    "@bufbuild/protobuf": "^2.5.2",
+    "@bufbuild/protoc-gen-es": "^2.5.2",
+    "@connectrpc/connect": "^2.0.2",
+    "@connectrpc/connect-web": "^2.0.2",
+    "dotenv": "^16.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.3",
+    "prettier": "^3.5.3",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  }
+}
