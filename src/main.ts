@@ -55,45 +55,21 @@ async function createEvents(api: Api): Promise<void> {
 }
 
 async function createUsers(api: Api) {
-  async function createUser(
-    api: Api,
-    name: string,
-    profilePictureUrl: string | undefined,
-  ): Promise<User> {
+  async function createUser(api: Api, name: string): Promise<User> {
     const response = await api.userService.create({
-      form: { name, profilePictureUrl },
+      form: { name },
     });
     return response.user!;
   }
 
   return {
-    aleksandr: await createUser(
-      api,
-      "Aleksandr Isupov",
-      "https://avatars.githubusercontent.com/u/115366324",
-    ),
-    arsen: await createUser(
-      api,
-      "Arsen Galiev",
-      "https://avatars.githubusercontent.com/u/106221641",
-    ),
-    asqar: await createUser(
-      api,
-      "Asqar Arslanov",
-      "https://avatars.githubusercontent.com/u/68478201",
-    ),
-    egor: await createUser(
-      api,
-      "Egor Pustovoytenko",
-      "https://avatars.githubusercontent.com/u/83028889",
-    ),
-    ilya: await createUser(api, "Ilya-Linh Nguen", undefined),
-    maksim: await createUser(
-      api,
-      "Maksim Ilin",
-      "https://avatars.githubusercontent.com/u/79646124",
-    ),
-    ramil: await createUser(api, "Ramil Shakirzyanov", undefined),
+    aleksandr: await createUser(api, "Aleksandr Isupov"),
+    arsen: await createUser(api, "Arsen Galiev"),
+    asqar: await createUser(api, "Asqar Arslanov"),
+    egor: await createUser(api, "Egor Pustovoytenko"),
+    ilya: await createUser(api, "Ilya-Linh Nguen"),
+    maksim: await createUser(api, "Maksim Ilin"),
+    ramil: await createUser(api, "Ramil Shakirzyanov"),
   };
 }
 
