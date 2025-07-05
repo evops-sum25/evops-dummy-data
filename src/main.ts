@@ -23,11 +23,11 @@ async function createEvents(api: Api): Promise<void> {
         withAttendance: true,
       },
     });
-    await pushImage(
-      api,
-      response.eventId,
+    [
       "https://img.redbull.com/images/c_crop,x_321,y_0,h_1049,w_787/c_fill,w_450,h_600/q_auto:low,f_auto/redbullcom/2020/4/19/d1jrdrpou7hvstulfozq/red-bull-campus-clutch-valorant-agents-phoenix-jett",
-    );
+    ].map(async (imageUrl) => {
+      await pushImage(api, response.eventId, imageUrl);
+    });
   }
   {
     const response = await api.eventService.create({
@@ -39,11 +39,11 @@ async function createEvents(api: Api): Promise<void> {
         withAttendance: false,
       },
     });
-    await pushImage(
-      api,
-      response.eventId,
+    [
       "https://i5.walmartimages.com/seo/Emotional-Support-Dumplings-Soft-Food-Plushies-by-What-Do-You-Meme_cfd8684d-7d17-4bc1-adaf-9fbdd1c1ce73.6ecf79a51349d45f0ccfedffc0e947e6.jpeg",
-    );
+    ].map(async (imageUrl) => {
+      await pushImage(api, response.eventId, imageUrl);
+    });
   }
   {
     const response = await api.eventService.create({
@@ -56,10 +56,10 @@ async function createEvents(api: Api): Promise<void> {
         withAttendance: true,
       },
     });
-    await pushImage(
-      api,
-      response.eventId,
-      "https://pbs.twimg.com/media/FSl59RZVsAA2Fw4.jpg",
+    ["https://pbs.twimg.com/media/FSl59RZVsAA2Fw4.jpg"].map(
+      async (imageUrl) => {
+        await pushImage(api, response.eventId, imageUrl);
+      },
     );
   }
 }
