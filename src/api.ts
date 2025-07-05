@@ -7,6 +7,7 @@ import {
 } from "./gen/evops/api/v1/api_pb.ts";
 
 export interface Api {
+  url: URL;
   eventService: Client<typeof EventService>;
   tagService: Client<typeof TagService>;
   userService: Client<typeof UserService>;
@@ -16,8 +17,8 @@ export async function initApi(apiUrl: URL): Promise<Api> {
   const grpcWebTransport = createGrpcWebTransport({
     baseUrl: apiUrl.toString(),
   });
-
   return {
+    url: apiUrl,
     eventService: createClient(EventService, grpcWebTransport),
     tagService: createClient(TagService, grpcWebTransport),
     userService: createClient(UserService, grpcWebTransport),
