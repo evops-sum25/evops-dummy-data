@@ -103,10 +103,12 @@ async function pushImage(
   api: Api,
   eventId: string,
   imageUrl: string,
-): Promise<Response> {
+): Promise<string> {
   const route = new URL(`v1/events/${eventId}/images`, api.url);
   const requestBody = await createMultipartRequest(new URL(imageUrl));
-  return await fetch(route, { method: "POST", body: requestBody });
+  return await fetch(route, { method: "POST", body: requestBody }).then(
+    async (response) => (await response.json())["image_id"],
+  );
 }
 
 async function createMultipartRequest(imageUrl: URL): Promise<FormData> {
