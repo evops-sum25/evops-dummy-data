@@ -166,7 +166,6 @@ async function createEvents(api: Api): Promise<void> {
 
   const tokens = await signUp(api, "o4u_user", "04u", "sasha123");
   const tags = await createTags(api, tokens.access);
-
   await createEvent(
     api,
     {
@@ -186,7 +185,7 @@ async function createEvents(api: Api): Promise<void> {
   await createEvent(
     api,
     {
-      title: "Bonjour! \'est la vie.. Croissant.",
+      title: "Learning French",
       description:
         "Bonjour! Ça va?\nС\'est la vie.. \nCroissant.\n\n📣If these words sound familiar to you, then maybe you know something about French Language 😉🇫🇷\n\n Language Club invites you to the open French lesson for beginners by Aliance Francaise 😍\n\n🕢 1️⃣8️⃣:0️⃣0️⃣ in room 320!\n\n‼️Lesson will be held in Russian\n\nDo not hesitate to contact  or  with any questions.",
       tagIds: [tags["language-learning"].id],
@@ -251,7 +250,7 @@ async function createEvents(api: Api): Promise<void> {
   await createEvent(
     api,
     {
-      title: "Dance Master Classes(Salsa, Bachata, Hip-Ho",
+      title: "Dance Master Classes",
       description:
         "💃💃 \n\nFinals are finally over 🥳 and now it\'s time to chill 🥂 \n❗️STREET and SOCIAL DANCE clubs invite you to the 💥 \nIs the place where you can enjoy watching dance performances 👯‍♀️ learn the bacis of different dances 🔥 and have fun on the disco 👻\n\n👉 Dance Master Classes(Salsa, Bachata, Hip-Hop) 💃🕺\n👉 Performance show 👯‍♀️\n👉 Free Snacks & Drinks🍿🍸\n👉 DJ 😎🔥\n👉 Dance floor 🤩\n\n🕖 December 12th\n      1️⃣9️⃣:0️⃣0️⃣ ➡️ 2️⃣3️⃣:0️⃣0️⃣\n📍Main Hall, Innopolis University\n\n👻 SO SHAKE IT OFF 👻",
       tagIds: [tags["dance"].id, tags["music"].id, tags["master-class"].id],
@@ -284,7 +283,7 @@ async function createEvents(api: Api): Promise<void> {
   await createEvent(
     api,
     {
-      title: "Youth Labour Pool (олоден ад",
+      title: "Youth Labour Pool",
       description:
         "📣Representatives of Молодежный Кадровый Потенциал are arriving to Innopolis on Friday at 12:00 to present the project and answer any questions. Event language: Russian.\n\n✅📖Youth Labour Pool (Молодежный Кадровый Потенциал) - is an education program for those who want to make a difference in the Republic of Tatarstan. This project is now recruiting young and ambitious people to offer:\n\n▪️ free non-formal education program\n▪️ acquaintance with successful Tatarstan Republic leaders and their projects\n▪️ open dialogue with heads of Tatarstan Republic\n▪️ your competence assessment\n▪️ ways to support ideas of the youth\n\n👉More info: ",
       tagIds: [
@@ -347,7 +346,7 @@ async function createEvents(api: Api): Promise<void> {
   await createEvent(
     api,
     {
-      title: "Low Level Programming Club presents a brand-new workshop: !",
+      title: "Low Level Programming Club presents a brand-new workshop",
       description:
         "🏃‍♀️Low Level Programming Club🌴 presents a brand-new workshop: \n\n«!\n\n🔵 You\'ll learn about the nRF52, Bluetooth-enables family of devices based on the ARM processors \n🔵 Find out differences and similarities with Arduino devices, also popular in the DIY field \n🔵 Learn different application possibilities and ways to program devices!\n\n🗓 Saturday, January 25th\n📍 Auditorium 318, 15:00\n🇬🇧 Workshop will be conducted in English\n\nJoin us at ",
       tagIds: [tags["workshop"].id, tags["programming"].id],
@@ -358,7 +357,7 @@ async function createEvents(api: Api): Promise<void> {
   await createEvent(
     api,
     {
-      title: "Digital culture in Russia in the future?",
+      title: "Digital culture in Russia in the future",
       description:
         "📣Want to find out what will digital culture in Russia look like in the future? Come along and discuss it with:\n\n- all Culture Ministers of Volga regions\n- Vice-prime minister of Tatarstan Republic\n- Vice-minister of Culture of Russian Federation\n\n📌Thursday, 13:00\n📌Reading Hall, 1st floor\n‼️Language: Russian\n\n👉 ",
       tagIds: [tags["conference"].id, tags["seminar"].id],
@@ -371,7 +370,7 @@ async function createEvents(api: Api): Promise<void> {
   await createEvent(
     api,
     {
-      title: "       ",
+      title: "Atmospheric Events",
       description:
         "📣\n\n📌14 Feb, 19:00, room 313\n❤️Evening\'s topic: .\n\nAny way you want it! You can read a poem/prose, sing/play a song or perform a sketch. \n\n👉Register  to be included into the program. After that join \n\n👤Any questions: .\n🇷🇺Most performances are in Russian\n\n🔥Do not miss one of the university’s most atmospheric events!\n\n❤️",
       tagIds: [tags["programming"].id],
@@ -434,7 +433,7 @@ async function createEvents(api: Api): Promise<void> {
   await createEvent(
     api,
     {
-      title: "Invitation to Innopolis University Event Project Contest",
+      title: "Invitation to Innopolis University Project Contest",
       description:
         "🚀 - apply to implement your event/project at Innopolis University this semester. \n\nFrom now, if your project requires support from 10k rubles and more, you have to defend your idea at the contest. No events will be held without preliminary project defense at the contest. More info & . \n\nProject examples: Anime Fest, International Fair, Photo Exhibition, Drone Race, etc.\n\n📌Application deadline  After that all applicants will have 1,5 weeks to prepare project\'s presentation to defend it at the jury panel. Questions: ",
       tagIds: [tags["contest"].id],
@@ -448,7 +447,7 @@ async function createEvents(api: Api): Promise<void> {
   await createEvent(
     api,
     {
-      title: "Innopolis Open olympiad in Informatic",
+      title: "Innopolis Open Olympiad in Informatics",
       description:
         "📣 will happen on Saturday, 22 Feb, at 19:30 as part of Innopolis Open olympiad in Informatics. \n\n🍿This time it\'ll be more modest, but cozy and homely event, which will more likely be held in the Reading Hall, 1st floor.\n\n✋👉Please message  if you want to be included in the program. Be ready to attend practice one evening before if you require to test technical or musical equipment.",
       tagIds: [
@@ -465,7 +464,7 @@ async function createEvents(api: Api): Promise<void> {
   await createEvent(
     api,
     {
-      title: "Is looking for ambitious projects in Kazan",
+      title: "Ambitious Projects in Kazan",
       description:
         "‼️‼️\n\n🚀. Drown yourself into specialized education program and sell your project to real corporation. Get practical experience, investment and network opportunities. Many industry fields presented.\n\n👉Register your project and attend the event on 20 Feb in Kazan. More info .\n\n🚀 is looking for ambitious projects in ten different forum directions. If you have an idea, it may be advanced and put in action through offered grants, education programs and partnerships. \n\n👉More info may be found on official website. Register your project  by 1 March.",
       tagIds: [
@@ -486,7 +485,7 @@ async function createEvents(api: Api): Promise<void> {
   await createEvent(
     api,
     {
-      title: "How to implement an event project at Innopolis University",
+      title: "How to implement a project at Innopolis University",
       description:
         "🚀 - apply to implement an event/project aimed at developing life at Innopolis University this semester. Deadline extended: 13/02\n\nFrom now, if your project requires support from 10k rubles and more, you have to defend your idea at the contest. No events will be held without preliminary project defense at the contest. More info & . \n\nProject examples: Anime Fest, International Fair, Photo Exhibition, Drone Race, etc.\n\n📌Application deadline February 13 After that all applicants will have 1,5 weeks to prepare project\'s presentation to defend it at the jury panel. Questions: ",
       tagIds: [tags["contest"].id],
@@ -528,7 +527,7 @@ async function createEvents(api: Api): Promise<void> {
   await createEvent(
     api,
     {
-      title: "Evening\'s topic: . Any way you want it!",
+      title: "Evening\'s topic: any way you want it!",
       description:
         "📣\n\n📌❤️Evening\'s topic: .\n\n🙋‍♀️Any way you want it! You can read a poem/prose, sing/play a song or perform a sketch. \n\n👉Register  to be included into the program. After that join \n\n👤Any questions: .\n🇷🇺Most performances are in Russian\n\n🔥Do not miss one of the most atmospheric events!\n\n❤️",
       tagIds: [tags["programming"].id],
@@ -543,7 +542,7 @@ async function createEvents(api: Api): Promise<void> {
   await createEvent(
     api,
     {
-      title: "Meeting with fellow-students from Tatarstan organized by...",
+      title: "Meeting with fellow-students from Tatarstan",
       description:
         "👨🏼‍🎓 Meeting with fellow-students from Tatarstan organized by World Forum of Tatar Youth ()\n\n🌎 The meeting will have an interactive space where all visitors may get acquainted with local projects and communities.\n\n✅The aim of the meeting is to help fellow-students to adapt in Kazan and become part of city projects.\n\n📆13 February, 16:00\n🗺 КСК КФУ «УНИКС» (concert hall)\n⠀\n▪️TED Talks format\n▪️1000 students\n▪️50 universities from Tatarstan\n▪️Tatar local communities\n▪️Instrumental music",
       tagIds: [tags["music"].id, tags["concert"].id, tags["talk"].id],
@@ -557,7 +556,7 @@ async function createEvents(api: Api): Promise<void> {
   await createEvent(
     api,
     {
-      title: "2nd April 19:00 Entertaining concert program, great music,...",
+      title: "2nd April 19:00",
       description:
         "🌸  🌸\n\n 2nd April 19:00\nEntertaining concert program, great music, partner dances!\n\n❓\nDon’t be shy and ask people you like.\n\n❓\nYou wil have evening trainings 2-3 times in a week. We will learn you step by step!\nAnd also wil help to dress you up.\n\n❓ \nYou can just come dressed up and  be a part. In this case, you will not need a pair.\n\n\n📌 :  (until 29/02)\nFor any questions contact ❤️",
       tagIds: [tags["concert"].id, tags["dance"].id, tags["programming"].id],
@@ -583,7 +582,7 @@ async function createEvents(api: Api): Promise<void> {
   await createEvent(
     api,
     {
-      title: "Join the first floorball training this Sunday, February 23rd...",
+      title: "Join the first floorball training this Sunday, February 23rd",
       description:
         "📣 Are you interested in playing floorball? Or maybe you are already an experienced floorball player? We invite  to take part in the Join the first training this Sunday, February 23rd at the Sports complex Gym. The Spartakiad itself will be held on the 22nd of March, so you have plenty of time to get ready and form the teams.\n\nInterested? Contact  \n\n⁉️ What: Floorball training\n⁉️ Where: SC, Gym\n🕟 When: February 23rd, 16:30-18:30",
       tagIds: [
@@ -635,7 +634,7 @@ async function createEvents(api: Api): Promise<void> {
   await createEvent(
     api,
     {
-      title: "Urgent need students to construct the cube for drone...",
+      title: "Help!",
       description:
         "🖐 urgently need students to help to construct the cube for drone competition. \n\n💥When: today-tomorrow \n⏰Duration: 4 hours\n📌Where: reading hall, 1st floor\n👉Contact ",
       tagIds: [
@@ -703,7 +702,7 @@ async function createEvents(api: Api): Promise<void> {
   await createEvent(
     api,
     {
-      title: "Aeroflot CEO advisor Andrey Polozov-Yabl",
+      title: "Aeroflot CEO advisor Andrey Polozov-Yablonski",
       description:
         "📣Guest lecture by Aeroflot CEO advisor, Andrey Polozov-Yablonski on  You will cover:\n\n- Company development within innovation context\n- Effective collaboration with federal bodies\n- Research and development management \n- Intellectual property rights\n- Business digital transformation\n\n🔥Come along, get valuable insights and possibly identify your future career path😎\n\n👉Register 📌March 23, 14:00-16:00\n🇷🇺Language: Russian\n🏛Room 107",
       tagIds: [
@@ -734,7 +733,7 @@ async function createEvents(api: Api): Promise<void> {
   await createEvent(
     api,
     {
-      title: "BREAKPOINT20 IV all -Russian forum for ambitious",
+      title: "Russian forum for ambitious leaders",
       description:
         "📣🚀\n\n⚙️BREAKPOINT`20 — IV all -Russian forum for ambitious young leaders of technical specialties, where they will be able to:\n\n- Find out about trends in technology in 2020; \n- Find like-minded people and exchange ideas with other participants who care about the technological future!\n- Communicate with representatives of companies from IT and industry sector (i.e. X5 Retail Group) to discuss potential employment.\n- Develop soft and hard skills!\n\n✅ Participation is free:  \n📅 April 11-12",
       tagIds: [tags["forum"].id, tags["conference"].id, tags["seminar"].id],
@@ -765,7 +764,7 @@ async function createEvents(api: Api): Promise<void> {
   await createEvent(
     api,
     {
-      title: " осковски осковски",
+      title: "Support our guys",
       description:
         "📣🏀Let\'s support our guys, they will need your presence this Sunday to reach the final!🏀\n\nIf we get 15 supporters, we\'ll organize two-way transport. Put your name  if you wish to be there for our team. Deadline: today 23:59.\n\n📌15 March, 17:30, ДК Московский",
       tagIds: [tags["sports"].id],
@@ -780,7 +779,7 @@ async function createEvents(api: Api): Promise<void> {
   await createEvent(
     api,
     {
-      title: "Data scientists Python\'s developers Participate in Final...",
+      title: "Hackathon",
       description:
         "▪️Analysts\n▪️Data scientists\n▪️Python\'s developers \n▪️IT developers\n\n▪️Participate in Final Hackathon\n▪️Prize money\n▪️Job offer from the organizer\'s company\n▪️ Implementation of your project\n▪️Familiarity with experts and the customer market of the Republic\n\n📌When: April 11 – 12\n🌇Where: IT-park, Kazan\n👉Register  till April 8 🔥\n👤Questions: ",
       tagIds: [
@@ -797,7 +796,7 @@ async function createEvents(api: Api): Promise<void> {
   await createEvent(
     api,
     {
-      title: "осковски  осковски",
+      title: "Supporters are needed",
       description:
         "📣\n\nWe got 24 supporters registered to come to the game! Please put your telegram alias  if you will be taking special bus arranged for the match day. Please do it by the end of today.\n\nIt will be one-way trip (Innopolis-Kazan), as presumably most of you will stay in Kazan after the game. Therefore, return bus will not justify its expense.\n\n🏀Max number of supporters: 30 people\n📌Fixture: 15 March, 17:30, ДК Московский\n‼️All registered supporters will be notified about bus departure on Sunday.",
       tagIds: [tags["game"].id],
@@ -851,7 +850,7 @@ async function createEvents(api: Api): Promise<void> {
   await createEvent(
     api,
     {
-      title: "Digital Olympiad Volga IT20 Gain practical skills in IT Get...",
+      title: "Digital Olympiad Volga IT20",
       description:
         "📣Digital Olympiad “Volga – IT’20”\n\n▪️Gain practical skills in IT\n▪️Get experience exchange\n▪️Obtain business relations\n\n🌇Where: Ulyanovsk\n📌When: 23 – 26 April\n👉Register  by April 1",
       tagIds: [tags["olympiad"].id, tags["business"].id],
@@ -862,7 +861,7 @@ async function createEvents(api: Api): Promise<void> {
   await createEvent(
     api,
     {
-      title: "   ",
+      title: "Project Experience",
       description:
         ".\n\n✔️Get teaching and project management experience in design.\n\n📌Work duration:  March 23 -28\n📌Shift Schedule:\n\nMon 13.00 – 16.00\nTue, Wed, Thu 09.00 – 12.00\nFri 09.00 – 18.00 (Hackathon)\nSat 09.00 – 15.00 (final concert)\n\n💸🇷🇺Language: Russian\n👤Questions: \n👉More info & apply ",
       tagIds: [tags["design"].id, tags["internship"].id],
@@ -941,7 +940,7 @@ async function createEvents(api: Api): Promise<void> {
   await createEvent(
     api,
     {
-      title: "Hackathon Duration: 2-6 May",
+      title: "Hackathon: 2-6 May",
       description:
         "📣 .\n\n👉Check it out .\n\n🔹Hackathon length: 2-6 May\n🔹Team capacity: 3 people max (you may participate alone if you wish)\n\nThis is a great opportunity to make use of your time during pandemic period: learn more about real industry, gain practical experience and enrich your professional portfolio.",
       tagIds: [
@@ -991,7 +990,7 @@ async function createEvents(api: Api): Promise<void> {
   await createEvent(
     api,
     {
-      title: "дентиикатор конер",
+      title: "Psycology meeting",
       description:
         "🤗 Dear friends! \n\n📖 😉 You will learn: \n- How to stop being the victim/aggressor- How to cope with hard feelings \n- Which techniques of emergency psychological assistance you can use right at the moment \n🔥🔥🔥\n\n* The language of the meeting is Russian\n\n💥 tomorrow - May, 21, (Thursday)\n⏰ 17.00 - 19.00\n✅ zoom:\n\n\n\nИдентификатор конференции: 816 2454 7467\nПароль: 076988",
       tagIds: [tags["seminar"].id],
@@ -1031,7 +1030,7 @@ async function createEvents(api: Api): Promise<void> {
   await createEvent(
     api,
     {
-      title: "Media contest to address the importance of inclusion, peace...",
+      title: "Media contest to address the importance of inclusion",
       description:
         "📣 media contest to address the importance of inclusion, peace and friendship among all people!\n\nThree available formats with 12 total nominations:\n- Text format\n- Video format\n- Photo format\n\nThe contest also offers series of workshops and master-classes.\n\n📌First stage contest: 1 June - 1 Sept\n👉More info and apply: ",
       tagIds: [tags["contest"].id],
@@ -1045,7 +1044,7 @@ async function createEvents(api: Api): Promise<void> {
   await createEvent(
     api,
     {
-      title: "Python & Git - fluent Russian 20-21 June -",
+      title: "Python & Git",
       description:
         "📣- familiarity with Python, Git\n- fluent Russian\n\n📌19 June - training day 09:00-15:00\n📌20-21 June - work shifts 09:00-15:00\n\nYou will get branded T-shirts + 3 times-a-day meals.\n\n👉For more info and apply: ",
       tagIds: [tags["internship"].id],
@@ -1056,7 +1055,7 @@ async function createEvents(api: Api): Promise<void> {
   await createEvent(
     api,
     {
-      title: "Data Science and Artificial Intelligence Project: 147 real...",
+      title: "Data Science and Artificial Intelligence Project",
       description:
         "📣\n📌4-5 July\n\n🔹Teams from 2 people\n🔹48 hours, work where you want\n🔹147 real cases from 5 countries which are aimed at solving global socio-economic issues through application of data science and artificial intelligence.\n\n👉Project news: \n👉More info & apply: \n‼️\n\n✅",
       tagIds: [tags["hackathon"].id],
@@ -1067,7 +1066,7 @@ async function createEvents(api: Api): Promise<void> {
   await createEvent(
     api,
     {
-      title: "- Rosneft Proppant Check Challenge, online from",
+      title: "Machine Learning hackathon",
       description:
         "📣- Machine Learning hackathon, 24-25 September. Task: creating optimal path on hard surface. Prize fund: 289000 rubles.\n\n- Programming/robotics hackathon, 16-17 October. Task: creating a solution in manufacturing process using robot-manipulator. Prize fund: 139000 rubles\n\n- Rosneft Proppant Check Challenge, online from September to November. Task: determining distribution of linear dimensions of profanate grains using series of photos. Prize fund: 142000 rubles\n\n🇷🇺Events are in Russian.\n📌Registration open by 1st of Sept.\n👉More info & register: ",
       tagIds: [
@@ -1103,7 +1102,7 @@ async function createEvents(api: Api): Promise<void> {
   await createEvent(
     api,
     {
-      title: 'Rosatom contest "Atom Ryadom" - make ',
+      title: 'Rosatom contest "Atom Ryadom"',
       description:
         '📣Rosatom contest "Atom Ryadom" - make a video and complete application form to take part.\n\n- Video topic: Friendly Atom\n- Application deadline: 3 August\n- Video duration: maximum 20 mins, 600mb\n- Winning prize: Apple iPad 128Gb\n- Video requirements: format is free, but portrait shooting is compulsory.\n\n👉More info & application form: ',
       tagIds: [tags["contest"].id],
@@ -1140,7 +1139,7 @@ async function createEvents(api: Api): Promise<void> {
   await createEvent(
     api,
     {
-      title: ", 24-28 August Two grant contests:",
+      title: "Two grant contests",
       description:
         "📣, 24-28 August\n\nTwo grant contests:\n\n- Federal Agency for Youth Affairs projects\n- Foundation for Civil Institutions Development Fund projects\n\n💰Grants are worth up to 1,500,000 rubles\n📌Application deadline: 20 July\n👉More info & apply .",
       tagIds: [tags["contest"].id],
@@ -1155,7 +1154,7 @@ async function createEvents(api: Api): Promise<void> {
   await createEvent(
     api,
     {
-      title: "    ",
+      title: "Russian Science",
       description:
         "📣 - initiative to involve talented youth in project work in Russian science, as well as develop regions from technological perspective.\n\n📌Application deadline: 1 August\n👉More info: ",
       tagIds: [tags["science"].id],
@@ -1169,7 +1168,7 @@ async function createEvents(api: Api): Promise<void> {
   await createEvent(
     api,
     {
-      title: "Huawei launches the contest for students in AI algorithm...",
+      title: "Huawei launches the contest for students",
       description:
         "📣Huawei launches the contest for students in AI algorithm creation  in the following areas:\n \n- Advertisement CTR Prediction\n- Search Ranking Prediction\n- Digital Device Image Retrieval\n\n📌Application deadline: 20 Sept.\n\n👉More info & .",
       tagIds: [
@@ -1187,7 +1186,7 @@ async function createEvents(api: Api): Promise<void> {
   await createEvent(
     api,
     {
-      title: 'Media Contest "We are the World" - photovideographictext...',
+      title: 'Media Contest "We are the World"',
       description:
         '📣Media Contest "We are the World" - photo/video/graphic/text contest for creative people in 12 nominations related to formation of positive intercultural environment in Tatarstan.\n\n👤14-30 y/o people who currently reside in Tatarstan.\n\n🔥Also, the contest offers various online master-classes in photography, video-making and literature.\n\n📌Application deadline: 1 September.\n👉More info & apply .',
       tagIds: [tags["contest"].id],
@@ -1200,7 +1199,7 @@ async function createEvents(api: Api): Promise<void> {
   await createEvent(
     api,
     {
-      title: "OnlineOffline formats Sudak city Form professional art...",
+      title: "Art Communities",
       description:
         '📣. \n‼️Online/Offline formats\n👇Sudak city\n\nForm professional art communities, give life to your artistic ideas and find mechanisms for governmental and social support.\n\nFestival\'s program will include flash mobs, art performances, fashion designer shows, costume night processions, theatrical and circus performances, film screenings, contemporary art exhibitions, stand-up performances, creative competencies open championship "ArtMasters", and more.\n\n👉More info & apply: \n📌Application deadline: 20 August',
       tagIds: [tags["programming"].id, tags["festival"].id, tags["art"].id],
@@ -1211,7 +1210,7 @@ async function createEvents(api: Api): Promise<void> {
   await createEvent(
     api,
     {
-      title: "City Council is arranging a concert on the , where our...",
+      title: "City Council is arranging a concert",
       description:
         "📣We have many talents in our city, and it\'s time to gather in one place and one time. City Council is arranging a concert on the , where our residents will be the main stars!\n\nIf you sing / play in a music group, dance, perform with a stand-up, read poetry or know how to do something unusual, then apply . The jury will select the most interesting performers and will run the show on August 30 in the park near the Residential Complex.\n\n📌Application deadline: August 26\n👉Q&A: ",
       tagIds: [
@@ -1258,7 +1257,7 @@ async function createEvents(api: Api): Promise<void> {
   await createEvent(
     api,
     {
-      title: "Master of Sports in Sambo and Candidate Master of Sports in...",
+      title: "Master of Sports in Sambo",
       description:
         "📣✅If you ever wanted to learn the most effective techniques of martial arts or improve your combat abilities, this is your chance! Both girls and boys are welcome!\n\n - Master of Sports in Sambo and Candidate Master of Sports in Judo\n\nTue 19:00 - 21:00 (wrestling)\nThu 19:00 - 21:00 (wrestling)\nFri 19:00 - 21:00 (wrestling + punches)\nSat 9:30 - 11:30 (working with rubber)\n\n👉Join the 👉Club Heads: \n👉For sambo sport hours you can enroll here: \n\n✅Browse more clubs on ",
       tagIds: [tags["master-class"].id, tags["programming"].id],
@@ -1273,7 +1272,7 @@ async function createEvents(api: Api): Promise<void> {
   await createEvent(
     api,
     {
-      title: "Radioelectronic combat - Radionavigation -",
+      title: "Radioelectronic combat",
       description:
         "📣📌7-9 October, Moscow\n\nThe purpose of the competition is to create all-Russian platform that unites radio amateurs-enthusiasts into professional teams and identify the best innovative scientific and technical ideas and solutions in the field of radio communications.\n\n✅Three contest directions:\n- Radioelectronic combat\n- Radionavigation\n- Radio monitoring\n\n📌Application deadline: 4 October\n👉More info & apply: ",
       tagIds: [tags["contest"].id],
@@ -1302,7 +1301,7 @@ async function createEvents(api: Api): Promise<void> {
   await createEvent(
     api,
     {
-      title: "ArtSpace Workshop Programs at the today!",
+      title: "ArtSpace Workshop Programs today!",
       description:
         '📣  \nWe are honored to present you \' program at the  today!\n\n📚 - Workshop Programs in ArtSpace\n- Brief explanation about ""\n\n📍 Location: ArtSpace Building\n⏳ Time: 👉For more  join the channel ',
       tagIds: [tags["programming"].id, tags["workshop"].id],
@@ -1315,7 +1314,7 @@ async function createEvents(api: Api): Promise<void> {
   await createEvent(
     api,
     {
-      title: "The first fixture day of organized by !",
+      title: "The first fixture day of organized",
       description:
         "📣Today we are having the first fixture day of  organized by We have 5 teams, which will clash head to head for a couple of weeks every Tuesday, Thursday and Saturday. Among them are two student teams:  and !\n\n📌18:30-20:30, Football Field\n✌️Join our football event and support your mates!",
       tagIds: [
@@ -1335,7 +1334,7 @@ async function createEvents(api: Api): Promise<void> {
   await createEvent(
     api,
     {
-      title: "Anime Club resumes their language branch by launching...",
+      title: "Anime Club",
       description:
         "📣Anime Club resumes their language branch by launching another Japanese course for beginners AGAIN! The first meeting will consist of the language overview and requires NO background knowledge, so everyone is welcome!!\n\n📌Wednesday, Sep 2, 19:30-21:00\n📍Room 303\n\n👉Contacts:  or . Join .\n_ _ _\n\n🔹\n\n🔹- Theatre Community\n- Ahuratus Club\n- B2B Spinners: Tetris Club\n- InnoStonks: Investors Club of Innopolis\n\n🔹- Art Club\n- Media Club\n\n👉Message  if you want to take over any of those.",
       tagIds: [
@@ -1353,7 +1352,7 @@ async function createEvents(api: Api): Promise<void> {
   await createEvent(
     api,
     {
-      title: "5518 Studios      ",
+      title: "5518 Studios",
       description:
         '📣 \n\nYou will find out more about gaming industry, the psychology of the gaming business and how to get there, how to make a career in game development, how to work in the international market and, of course, about 5518 Studios, its history, philosophy, successes and failures.\n\n📌September 11, Friday - at 16:00\n📍Technopark, 2nd floor, "Wood" zone, lecture hall (former press center)\n👉Register .\n\nMaxim Mikheenko is the executive director of the game development studio. They took part in the creation of Call of Duty: Black Ops IIII, Borderlands 3 DLC, Fortnite, SimCity Mobile, Walking Dead: TWC, Star Trek - games known all over the world.\n\n!\n\n👉Link to the .\n👉Link to his  with вДудь.\n🇷🇺Event\'s language: Russian',
       tagIds: [
@@ -1384,7 +1383,7 @@ async function createEvents(api: Api): Promise<void> {
   await createEvent(
     api,
     {
-      title: "The Department of Pre-University Education is opening an for...",
+      title: "The Department of Pre-University Education",
       description:
         "📢Department of pre-university education is opening an  for students!\n\nThrough this track we\'ll form a team to compete in Russian and International student math contests.\n\n🔹Community of students and professors who love math.\n🔹Challenging tasks and internal contests that will boost your skills.\n🔹 Participation in Russian and International student math olympiads and contests.\n\n📌Join Induction meeting on 7 Sept, at 17:00, in room 314.\n\n👉Register for the meeting ",
       tagIds: [tags["mathematics"].id, tags["club-meeting"].id],
@@ -1410,7 +1409,7 @@ async function createEvents(api: Api): Promise<void> {
   await createEvent(
     api,
     {
-      title: "Digital week-2020 forum - Analysers, data scientists and",
+      title: "Digital week-2020 forum - Analysers, data scientists",
       description:
         "📣Digital week-2020 forum - Analysts, data scientists and python developers are invited to participate in Digital Health and Super-Services hackathon!\n\nDIGITAL SUPERHERO is an all-Russian series of online hackathons on various topics, which are held with the support of the Government of the Republic of Tatarstan. The main goal is to create favorable conditions for the development of ideas in the field of digital technologies in various sectors of economy. \n\n📌12-19 Sept, final stage 19-21 Sept \n👉More info & apply: \n👤Registration issues: ",
       tagIds: [tags["hackathon"].id, tags["forum"].id, tags["data-science"].id],
@@ -1492,7 +1491,7 @@ async function createEvents(api: Api): Promise<void> {
   await createEvent(
     api,
     {
-      title: "We are looking for students who want to join .",
+      title: "We are looking for students",
       description:
         "📣We are looking for students who want to join . If you have always dreamed of becoming a , ! \n\nThe basics will be delivered during our , so no skills are required — only your motivation. You can discuss your projects, get feedback and improve your skills, make new friends and get published in our new monthly newspaper.\n\n👉.",
       tagIds: [
@@ -1575,7 +1574,7 @@ async function createEvents(api: Api): Promise<void> {
   await createEvent(
     api,
     {
-      title: "Fintech Ecosystems Smart Transport Systems Situational...",
+      title: "Digital Forum",
       description:
         "📣Opportunity to attend  - the largest international digital forum in the region.\n\n🔹🔹Over  speakers\n🔹 format\n\n🔺Fintech Ecosystems\n🔺Smart Transport Systems\n🔺Situational Centres\n🔺New Era Cybersecurity\n🔺Innovative Business Integrations\n\n👉Event\'s info: 👉Event\'s program: 📌21-24 Sept\n\n‼️",
       tagIds: [
@@ -1607,7 +1606,7 @@ async function createEvents(api: Api): Promise<void> {
   await createEvent(
     api,
     {
-      title: "Telegram Event : 23-27 Sept.",
+      title: "Telegram Event",
       description:
         "📣\n\n🔹\n- bachelor students;\n- developers, designers, marketers, analysts, data scientists\n🔹\n- Technologies for bilingual education development\n- Tatar language and IT\n- Technologies for business and science\n🔹\n\n📌  26-27 Sept.\n📌 : 24 Sept.\n\n👉Register 👉Join Telegram 🇷🇺 Event language is Russian (knowing Tatar language is NOT required). Foreign students can participate with Russian-speaking teammates.",
       tagIds: [tags["conference"].id, tags["job-fair"].id],
@@ -1620,7 +1619,7 @@ async function createEvents(api: Api): Promise<void> {
   await createEvent(
     api,
     {
-      title: "Do you wanna be part of a club that combines bizarre...",
+      title: "Club Activity",
       description:
         "📣Do you wanna be part of a club that combines bizarre activities, martial arts, and tea parties with cookies? Then you need to try  today!\n\n📌20:30 in Sport Complex, room 232.\n\n is waiting for boys and girls to join! Today we have a game training!",
       tagIds: [tags["game"].id, tags["sports"].id],
@@ -1634,7 +1633,7 @@ async function createEvents(api: Api): Promise<void> {
   await createEvent(
     api,
     {
-      title: "Digital week-2020 forum - Track: AVVR DIGITAL",
+      title: "Digital week-2020 forum",
       description:
         "📣Digital week-2020 forum - ✅Track: AV/VR\n\nDIGITAL SUPERHERO is an all-Russian series of online hackathons on various topics, which main goal is to create favorable conditions for the development of ideas in the field of digital technologies in various sectors of economy. \n\n📌18-23 Sept (starting tomorrow!)\n👤Teams 2-5 people\n👉More info 👉To apply message \n‼️",
       tagIds: [tags["hackathon"].id, tags["forum"].id],
@@ -1645,7 +1644,7 @@ async function createEvents(api: Api): Promise<void> {
   await createEvent(
     api,
     {
-      title: "Students VS citizens\' team !",
+      title: "Students VS citizens",
       description:
         "🔥\n\nStarting with the game for the 3rd place between  and , and finishing the competition with the final game:  of students VS citizens\' team !\n\n‼️📌Where: Football field\n🔹18:30 - \n🔹19:30 - ",
       tagIds: [tags["sports"].id, tags["contest"].id, tags["game"].id],
@@ -1695,7 +1694,7 @@ async function createEvents(api: Api): Promise<void> {
   await createEvent(
     api,
     {
-      title: "Hackathon Info: . VK . VK . V",
+      title: "Hackathon Info",
       description:
         "📣\n\n🔺Participants: bachelor students\n🔺Teams: 2-4 people\n\n🔹\n- Living books\n- Book recommendations\n- Development books\n- Programming language\n\n🔹\n- Tatar search tool\n- Visual translator\n- Tatar keyboard\n- Intellectual task-manager\n\n👉Hackathon info: .\n👉VK .\n",
       tagIds: [tags["hackathon"].id],
@@ -1723,7 +1722,7 @@ async function createEvents(api: Api): Promise<void> {
   await createEvent(
     api,
     {
-      title: "Join the group: The community of like-minded people aiming...",
+      title: "Looking For People",
       description:
         "✅🔹Looking for designers, content writers, photographers and videographers. \nContact: \nMedia Club 🔹The club intends to extend the abilities of minds and learning how to use instincts. \nJoin the group: 🔹Main disciplines: CS:GO and Dota2. Looking for trainers in other disciplines.\nJoin the group: 🔹The community of like-minded people aiming to implement various digital projects to make a difference around us.\nJoin the group: 🔹The club wishes to create a public Minecraft server for players from all over the world to spread information about IU and create a game community.\nJoin the group: 👉Explore all 52 clubs on ",
       tagIds: [tags["job-fair"].id, tags["internship"].id],
@@ -1737,7 +1736,7 @@ async function createEvents(api: Api): Promise<void> {
   await createEvent(
     api,
     {
-      title: "Innopolis University December 17-18, Innopolis University",
+      title: "Innopolis University December 17-18",
       description:
         "📣 📌December 17-18, Innopolis University\n\n• Software engineering and software development management;\n• Telecommunication systems and computer networks;\n• Mathematical modeling, numerical methods and program complexes;\n• System analysis, information processing;\n• Automated control systems.\n\n‼️The Program Committee will accept articles for the Conference . \n\n\n\n💸Free for IU students\n👉More info at \n👉Contact: ",
       tagIds: [
@@ -1754,7 +1753,7 @@ async function createEvents(api: Api): Promise<void> {
   await createEvent(
     api,
     {
-      title: "Moscow Institute of Physics and Technology is conducting...",
+      title: "Moscow Institute of Physics and Technology courses",
       description:
         "📣Moscow Institute of Physics and Technology is conducting online high intense courses (lectures, contests, task reviews) and algorithmic programming championship.\n\n✅Russian citizens or for those who have Russian translation of their passports\n\n✅1) Sign up to this event\'s web-site  and fill application form for the championship\n2) Fill in the form for the certification via this  (after registration)\n3) Join telegram group via this 4) Solve at least one problem in each block of the contest\n5) Take part in the team championship\n\n✅- Experience\n🔥Free of charge\n🔥No admission selections\n\n👉Questions:  or ‼️🔔for registration: Today, 11 pm\n‼️🔔for solving contest problems: Friday, October 2nd",
       tagIds: [
@@ -1789,7 +1788,7 @@ async function createEvents(api: Api): Promise<void> {
   await createEvent(
     api,
     {
-      title: "Moscow Institute of Physics and Technology is conducting...",
+      title: "MIPT courses",
       description:
         "📣\nMoscow Institute of Physics and Technology is conducting online high intense courses (lectures, contests, task reviews) and algorithmic programming championship.\n\n✅1) Sign up to this event\'s web-site  and fill application form for the championship\n2) Fill in the form for the certification via this  (after registration)\n3) Join telegram group via this 4) Solve at least one problem in each block of the contest\n5) Take part in the team championship\n\n✅- Experience\n👉Questions:  or ",
       tagIds: [
@@ -1808,7 +1807,7 @@ async function createEvents(api: Api): Promise<void> {
   await createEvent(
     api,
     {
-      title: "All-Russian Online Festival of University Technological...",
+      title: "Opportunity",
       description:
         "📣The All-Russian Online Festival of University Technological Projects \n\nTake a chance to receive support from experienced and successful businessmen and corporations, acquire new knowledge, attract attention of potential investors and win a cash prize for developing your business.\n\n👇- You have innovative solution\n- You have product\'s prototype\n- You have at least one student/teacher from your university in your team.\n\n📌Event\'s date: 12 November\n📌Application deadline: 25 October\n👉More info & apply .",
       tagIds: [
@@ -1883,7 +1882,7 @@ async function createEvents(api: Api): Promise<void> {
   await createEvent(
     api,
     {
-      title: ' енет  " е',
+      title: '"УМНИК" Contest',
       description:
         '📣"УМНИК Технет НТИ" - the contest aiming to support young scientists who wish to fulfil themselves through innovation and technology.\n\n✅- digital technologies;\n- new materials and chemical technologies\n- new devices and intelligent production technologies\n\n📌Application deadline: 1 Nov\n💻Online semi-final: 02 Nov - 22 Nov\n🚄Offline final: 09 - 11 Dec, St. Petersburg\n\nContest semi-final will assess scientific-technological level of the project. The final will focus on feasibility and commercialization. 👉More info and apply ',
       tagIds: [tags["contest"].id, tags["science"].id],
@@ -1936,7 +1935,7 @@ async function createEvents(api: Api): Promise<void> {
   await createEvent(
     api,
     {
-      title: "Red Bull Global Workshop for Student Innovators",
+      title: "Red Bull Global Workshop",
       description:
         "📣Do you have an idea that might change student life at the campus or even will change the whole world?\n\nRed Bull gives wings to student innovators to drive positive change through tech solutions. Best ideas will be invited to the Global Workshop.\n\nTo apply you need to produce a 1-minute video about your project in English or with English subtitles. You can watch the video from last year\'s winners . More info .\n\n‼️👉If you are interested in attending this workshop please let  know .",
       tagIds: [tags["contest"].id],
@@ -1982,7 +1981,7 @@ async function createEvents(api: Api): Promise<void> {
   await createEvent(
     api,
     {
-      title: "Innopolis University will host a round table meeting with...",
+      title: "Innopolis University will host a round table meeting",
       description:
         "📣Innopolis University will host a round table meeting with the  from Brazil, Russia, India, China and Russia.\n\nThe meeting will involve a presentation by Ministry of Foreign Affairs of Russia on visa regime, youth diplomats council affairs and BRICS recent activity and partnership. \n\n🗣\n\n📌This Friday, 10am-12pm.\n\n‼️The number of places is limited.\n👉.",
       tagIds: [tags["seminar"].id, tags["conference"].id],
@@ -1997,7 +1996,7 @@ async function createEvents(api: Api): Promise<void> {
   await createEvent(
     api,
     {
-      title: "Online International Conference on Artificial Intelligence...",
+      title: "Online International Conference on AI",
       description:
         "📣Online International Conference on Artificial Intelligence and Data Analysis \n\n3 days of exciting presentations by recognized world experts in development and implementation of AI technologies in various areas of business and life.\n\n🔹20 topics\n🔹200+ speakers\n🔥Participation is FREE\n📌20-22 November\n\n👉Event\'s program & registration ",
       tagIds: [
@@ -2023,7 +2022,7 @@ async function createEvents(api: Api): Promise<void> {
   await createEvent(
     api,
     {
-      title: "Student Union are looking for amazing VOLUNTEERS to host...",
+      title: "Student Union are looking for amazing VOLUNTEERS",
       description:
         '📣Student Union are looking for amazing  VOLUNTEERS to host another incredible night at HALLOWEEN on 31 October!\n\n👉Browse available roles . \n\n🤡Event organizers are also looking for, apply for "Station worker" if interested.',
       tagIds: [tags["volunteering"].id],
@@ -2048,7 +2047,7 @@ async function createEvents(api: Api): Promise<void> {
   await createEvent(
     api,
     {
-      title: 'Acceleration and educational intensive program "Archipelago...',
+      title: "Acceleration and educational intensive program",
       description:
         "‼️Acceleration and educational intensive program \"Archipelago 20.35\" in Innopolis - Take part in selections with machine learning and data science project. If you don\'t have your own project now, it\'s not a problem - you can join participants with a shared idea.\n\n🔺1 Nov - registration deadline\n🔺7 Nov - intensive starts\n🔺21 Nov - project presentation\n\n👉Available  \n👉More info & apply 🇷🇺Language: Russian",
       tagIds: [tags["data-science"].id, tags["machine-learning"].id],
@@ -2061,7 +2060,7 @@ async function createEvents(api: Api): Promise<void> {
   await createEvent(
     api,
     {
-      title: "       ",
+      title: "Competition",
       description:
         '📣More than 700 participants from 30 Russian universities have already clicked "register" button and are competing for a prize fund of 1,142,000 rubles. Be the next one!\n\n📌Registration will close on 30 Oct. \n👉Register: ',
       tagIds: [tags["contest"].id, tags["conference"].id],
@@ -2106,7 +2105,7 @@ async function createEvents(api: Api): Promise<void> {
   await createEvent(
     api,
     {
-      title: "Korston - developer and operator of hotel, shopping and...",
+      title: "Korston",
       description:
         "📣- working with the database;\n- setting up analytics via Navision;\n- working with end-to-end analytics;\n- setting up systems like  or ;\n- conducting digital marketing;\n- optimizing current processes\n\n⭐️Korston - developer and operator of hotel, shopping and entertainment complexes.\n\n🇷🇺Language: Russian\n📌Start date: ASAP\n👉For more info and applying please message  by Monday 9am.",
       tagIds: [
@@ -2231,7 +2230,7 @@ async function createEvents(api: Api): Promise<void> {
   await createEvent(
     api,
     {
-      title: "Accounts Chamber of Russia — Accounts Chamber of Russia",
+      title: "Accounts Chamber of Russia",
       description:
         "📣\n\nPresent your work to industry experts, expand your network of professional contacts and apply your solutions into operational processes of the Accounts Chamber\n of Russia.\n\n▪️Over 15 tasks and problem areas to select and solve.\n▪️Experts assigned to each team\n▪️One month to develop a solution\n\n👤3-4 year bachelors, master degree students\n📌Application deadline: 27 Nov\n",
       tagIds: [tags["internship"].id],
@@ -2242,7 +2241,7 @@ async function createEvents(api: Api): Promise<void> {
   await createEvent(
     api,
     {
-      title: "RuCode is an all-Russian online training festival on...",
+      title: "RuCode",
       description:
         "📣 \n\nRuCode is an all-Russian online training festival on artificial intelligence and algorithmic programming. Take part in C or D divisions and get advanced training certificate!\n\n✅Registration \n👉Any questions .\n\n‼️Also, the organizers are doing their best to improve and here\'s a short feedback form for you where you can indicate reasons for not taking part in RuCode. Please fill the  if you want and have time.",
       tagIds: [
@@ -2273,7 +2272,7 @@ async function createEvents(api: Api): Promise<void> {
   await createEvent(
     api,
     {
-      title: "Innopolis University and ArtSpace are going to host an ,",
+      title: "Innopolis University and ArtSpace",
       description:
         "📣Innopolis University together with ArtSpace are going to host an , which will be broadcasted .\n\n👉If you wish to take part please register yourself .\n\n‼️One quick test screening  in ArtSpace rep studio at your convenient time. It will help to ensure technical provision for your act.\n\n‼️Only \'mic\' performances are allowed. Unfortunately, no dancing will be included into the program.\n\n📌Application deadline: Monday 15:00",
       tagIds: [tags["talk"].id, tags["programming"].id],
@@ -2289,7 +2288,7 @@ async function createEvents(api: Api): Promise<void> {
   await createEvent(
     api,
     {
-      title: "Innopolis University and ArtSpace are going to host an ,",
+      title: "Innopolis University and ArtSpace",
       description:
         "📣Innopolis University together with ArtSpace are going to host an , which will be broadcasted .\n\n👉If you wish to take part please register yourself .\n\n‼️One quick test screening  in ArtSpace rep studio at your convenient time. It will help to ensure technical provision for your act.\n\n‼️Only \'mic\' performances are allowed. Unfortunately, no dancing will be included into the program.\n\n📌",
       tagIds: [
@@ -2349,7 +2348,7 @@ async function createEvents(api: Api): Promise<void> {
   await createEvent(
     api,
     {
-      title: "Junior Developer Developer Job Description",
+      title: "Junior Developer Job Description",
       description:
         "📣👉You can upload your resumes . It must contain:\n\n- Your skills\n- Your experience\n- Salary expectations\n- Desired number of work hours per week\n- What exactly do you want to do as a Junior Developer",
       tagIds: [tags["programming"].id],
@@ -2373,7 +2372,7 @@ async function createEvents(api: Api): Promise<void> {
   await createEvent(
     api,
     {
-      title: "- to find music for the festival - to manage audio streams...",
+      title: "Music",
       description:
         "📣 \n\n👇- to find music for the festival\n- to manage audio streams and put the music between speeches\n\n📌Dates: 15-20 December\n‼️\n\n👉To apply: \n📌Application deadline: today 17:00",
       tagIds: [
@@ -2424,7 +2423,7 @@ async function createEvents(api: Api): Promise<void> {
   await createEvent(
     api,
     {
-      title: "Join our and follow our news.",
+      title: "Join us and follow our news.",
       description:
         "📣 🎄\n\n👉Join our  and follow the news.\n\n- Workshop capacity: 20 people\n- All participants need to have their own scissors\n\n 16 December, 16:00, room 314",
       tagIds: [tags["workshop"].id],
@@ -2439,7 +2438,7 @@ async function createEvents(api: Api): Promise<void> {
   await createEvent(
     api,
     {
-      title: "Russian IT companies involvement in domestic film industry:...",
+      title: "Russian IT companies involvement in domestic film industry",
       description:
         "📣\n\n🔹 Russian IT companies involvement in domestic film industry: production, storage and distribution of audiovisual content for cinemas; television and online services.\n\n🔹 to establish partnerships between two industries in technological domain.\n\n\n\n- TV channels’ representatives, producers\n- SEZ Innopolis companies, partners and start-ups; Innopolis University students and staff\n\n📌18 Decemberб 15:00~18:00\n👉More info & apply 🇷🇺Language: Russian",
       tagIds: [tags["conference"].id],
@@ -2453,7 +2452,7 @@ async function createEvents(api: Api): Promise<void> {
   await createEvent(
     api,
     {
-      title: "    ",
+      title: "Looking For People",
       description:
         "🧰🔹Starting from January\n🔹Hours are discussed\n🔹Pay rate: 1-1.5k r/h depending on experience.\n\n‼️Both Russian and English candidates are considered.\n\n‼️Teaching experience is required.\n\nTo apply: ",
       tagIds: [tags["job-fair"].id],
@@ -2498,7 +2497,7 @@ async function createEvents(api: Api): Promise<void> {
   await createEvent(
     api,
     {
-      title: "Application deadline: 19 January More info .",
+      title: "Application deadline: 19 January",
       description:
         "🧰 \n\n- Python, Java, Scala and iOs developers\n- Frontend developer\n- QA engineer\n- DevOps, ML engineer\n- Junior native advertising manager\n- Junior blogger manager\n\n📌Application deadline: 19 January\n👉More info . Apply ",
       tagIds: [
@@ -2518,7 +2517,7 @@ async function createEvents(api: Api): Promise<void> {
   await createEvent(
     api,
     {
-      title: "Global Crisis Conference : .",
+      title: "Global Crisis Conference",
       description:
         "📣: .\n \nThe purpose of the conference is to provide students with an opportunity to explore potential global crises that may happen over the next 50 years and propose possible solutions with policies, technology, and innovative ideas. \n\nTop 3 teams in each division (for every scenario) will be awarded with the following prizes:\n\n1st prize: $5000\n2nd prize: $2000\n3rd prize: $1000\n \n👉More info and apply on  website.\n\n",
       tagIds: [tags["conference"].id, tags["contest"].id],
@@ -2533,7 +2532,7 @@ async function createEvents(api: Api): Promise<void> {
   await createEvent(
     api,
     {
-      title: "React MobX, React MobX, Redis,",
+      title: "React MobX",
       description:
         "🧰Group-IB is a new generation of engineers who embody bold and innovative ideas for early detection of cyberattacks.\n\n🔹 Python3, Django, DRF, Redis, MySQL, Docker, React + MobX, Linux (Ubuntu / Debian)\n\n- Python, its object model and standard data structures\n\n- Linux. (Ubuntu / Debian)\n- MySQL and an understanding of the basic principles of database building\n- Docker / Docker-compose\n\n✅Vacancy is based in Innopolis.\n👉Apply: ",
       tagIds: [
@@ -2595,7 +2594,7 @@ async function createEvents(api: Api): Promise<void> {
   await createEvent(
     api,
     {
-      title: "Blockchain engineer - AI specialist - full stack,...",
+      title: "Available Posistions",
       description:
         "🧰 🔹Available positions:\n\n- Blockchain engineer/expert\n- AI specialist\n- ML engineer\n- full stack, frontend/backend developer\n- UI/UX designer\n\n👉More info & apply: ",
       tagIds: [tags["job-fair"].id],
@@ -2611,7 +2610,7 @@ async function createEvents(api: Api): Promise<void> {
   await createEvent(
     api,
     {
-      title: "Innopolis Cricket Club invites you to take part in a",
+      title: "Innopolis Cricket Club invites you",
       description:
         "📣Innopolis Cricket Club is inviting you to take part in the master class of cricket - a famous worldwide game.\n\n📌Friday, Jan 15th, 20:00-22:00 in Big Hall, Sports Complex\n\n👉Join  for further announcements!",
       tagIds: [
@@ -2629,7 +2628,7 @@ async function createEvents(api: Api): Promise<void> {
   await createEvent(
     api,
     {
-      title: "адров еерв е",
+      title: '"КАДРОВЫЙ РЕЗЕРВ"',
       description:
         '📣"Кадровый Резерв" is a one-year program for those who want to develop their ideas and are looking for knowledge resources, like-minded people and mentors. This program can give you tools to achieve your goals.\n\nThis year\'s tracks:\n\n- personal efficiency\n- teamwork and communication\n- project development and social impact\n\n👉More info on ',
       tagIds: [tags["internship"].id],
@@ -2659,7 +2658,7 @@ async function createEvents(api: Api): Promise<void> {
   await createEvent(
     api,
     {
-      title: "Kazan, 26 January, 10:30, Kazan",
+      title: "Kazan, 26 January, 10:30",
       description:
         "📣\n\n📌26 January, 10:30, Kazan\n\nParticipants: university students, 1995 year of birth or younger. Team of 5 + 2 subs. Only one team per university. Prizes: trophies, diplomas, money certificates.\n\n👉To apply message  by the end of today!",
       tagIds: [tags["contest"].id, tags["sports"].id],
@@ -2703,7 +2702,7 @@ async function createEvents(api: Api): Promise<void> {
   await createEvent(
     api,
     {
-      title: "- Volume-based salary (cost of one delivery is 70 rubles",
+      title: "Looking For People",
       description:
         "🧰\n\n🔹\n\n- volume-based salary (cost of one delivery is 70 rubles)\n- Delicious lunch if you\'ve worked more than 4 hours (and sometimes a glass of beer) \n- Training provided \n- Flexible schedule\n- Friendly spirit in a strong team \n\n🔹\n\n- hourly pay rate \n- Delicious lunch if you\'ve worked more than 4 hours (and sometimes a glass of beer) \n- Training provided \n- Flexible schedule\n- Friendly spirit in a strong team \n\n👇What we expect from you: \n\n- Reliability \n- Speed and accuracy \n- Quality work \n\n👉To apply: ",
       tagIds: [tags["internship"].id],
@@ -2717,7 +2716,7 @@ async function createEvents(api: Api): Promise<void> {
   await createEvent(
     api,
     {
-      title: "International contest for young people in entrepreneurship",
+      title: "International contest for young people",
       description:
         '📣\n\nInternational contest, which aims to unfold youth potential in entrepreneurship, IT, project management and team work. \n\n\n\n- acceleration "Start Up" business course\n- pilot projects in partner companies\n- recreation camp trips\n- valuable prizes (iPhone, Mac, SonyPlaystation, etc.)\n\n🔹Participants: students 18-23 y/o.\n📌Application deadline: 27 January\n👉More info in ,  or . \n👉Apply .',
       tagIds: [tags["contest"].id, tags["startups"].id, tags["business"].id],
@@ -2770,7 +2769,7 @@ async function createEvents(api: Api): Promise<void> {
   await createEvent(
     api,
     {
-      title: "Dance , . Contemporary is an expressive dance form with...",
+      title: "Dance",
       description:
         "📣🔹Contemporary is an expressive dance form with a free, artistic and creative feel. See , .\n\n🔹High Heels is a dance form named after women\'s shoe style, since one of its distinguished features is wearing high-heeled shoes during performance. See , .\n\n📌24.01, Sunday, Sport Complex, 223\n💃🏻Invited choreographer: 💲👉\n👉More info about future master classes & regular sessions is available .",
       tagIds: [
@@ -2787,7 +2786,7 @@ async function createEvents(api: Api): Promise<void> {
   await createEvent(
     api,
     {
-      title: "Espaol Amigo",
+      title: "Espanol Amigo",
       description:
         '📣The "Español Amigo" welcomes those who wants to learn Spanish and practice it with native speakers!\n\nThe club will involve activities related to language learning, such as watching films, talking about Spanish music and so on. It will be a very entertaining group!\n\n👉Meeting times will be decided in the group, so !',
       tagIds: [tags["language-learning"].id, tags["club-meeting"].id],
@@ -2802,7 +2801,7 @@ async function createEvents(api: Api): Promise<void> {
   await createEvent(
     api,
     {
-      title: "Terra Mystica (TM) — Terra Mystica (TM",
+      title: "Terra Mystica (TM)",
       description:
         "📣🌱 The game is Terra Mystica (TM) 🔥 \n🕐 Average time per match: 3 hours\n🐧 Number of players: 4-5\n📌 When: 30-31 January 12:30\n\n👉For rules and more info please visit the .\n📌Application deadline: 29 January\n👉For questions please contact ",
       tagIds: [tags["game"].id],
@@ -2826,7 +2825,7 @@ async function createEvents(api: Api): Promise<void> {
   await createEvent(
     api,
     {
-      title: "Acceleration Program — Acceleration Program",
+      title: "Acceleration Program",
       description:
         "📣\n\n- Get expert assessment of your project\n- Be trained by the top experts\n- Master the skills of conducting effective business presentations\n- Reach new level of negotiations with investors\n- Get investment support\n\n‼️🔹 Over 200 projects by high-tech entrepreneurs\n🔹 Up to € 1,000,000 investment for the winners of Acceleration Program\n\n👉Check the program  \n👉Register ",
       tagIds: [tags["business"].id, tags["startups"].id],
@@ -2842,7 +2841,7 @@ async function createEvents(api: Api): Promise<void> {
   await createEvent(
     api,
     {
-      title: "InnoStage: The Book of Business Analyses",
+      title: "InnoStage",
       description:
         "📣\n\nVadim Mironov, the author of the book and the head of business analysis group InnoStage, will talk about how the book was created and how it can be useful for novice business analysts.\n\nThe event will be held in Zoom. \n\n📌Today, 16:30.\n🇷🇺Event language: Russian\n👉You can connect via this . Conference ID: 910 5180 4927.\n\n",
       tagIds: [tags["conference"].id, tags["business"].id, tags["lecture"].id],
@@ -2853,7 +2852,7 @@ async function createEvents(api: Api): Promise<void> {
   await createEvent(
     api,
     {
-      title: "Indicator in Innopolis Indicator in Inno",
+      title: "Indicator in Innopolis",
       description:
         "📣\n\nThis course is suitable for those who dreams of making games and starting a career in gaming industry.\n\n🇷🇺Language: Russian\n🔹Course start: 20 Feb\n🔹Course length: 3 months\n🔹Number of spaces: 30\n📌Location: Technopark\n 20 Feb.\n👉— principles of game design, programming in Unity, and working with 3D art \n— personal feedback and weekly support in your “from idea to release” path\n\n👤\n\n— Anton Skudarnov, CEO Indie GameDev Club \n— Evgeny Ageev, curator of the Indicator in Innopolis \n\nIndicator in Innopolis group:  \nAny questions: ",
       tagIds: [tags["game"].id, tags["seminar"].id, tags["design"].id],
@@ -2868,7 +2867,7 @@ async function createEvents(api: Api): Promise<void> {
   await createEvent(
     api,
     {
-      title: "Sirius University (Sirius University)",
+      title: "Sirius University",
       description:
         "📣\n\nBoth fundamental and applied research projects can be submitted to the competition. Participants need to formulate a clear goal with proposed plan and predicted measurable result.\n\n🔹 \n🔹 \n🔹 \n\n🏆The winners will receive additional points upon admission to Sirius University and the opportunity to study in short-term educational modules without competitive selection.\n\n👤2-3 year bachelors & masters\n👉More info & apply .\n📌Application deadline: 23 Feb",
       tagIds: [tags["contest"].id],
@@ -2884,7 +2883,7 @@ async function createEvents(api: Api): Promise<void> {
   await createEvent(
     api,
     {
-      title: "If you are already 18, you are energetic, you enjoy...",
+      title: "Looking For People",
       description:
         "🧰If you are already 18, you are energetic, you enjoy communicating with children, you are ready for endless interesting activities - then you are a perfect candidate!\n\n- Free food and accommodation\n- Merch\n- Decent salary\n\n- Desire to become part of a cool team\n- Passion for work with children children\n- Strong organization skills and responsibility\n- Both English & Russian speakers are welcome to apply!\n\n👉Apply !\n👤For questions: ",
       tagIds: [tags["job-fair"].id, tags["internship"].id],
@@ -2897,7 +2896,7 @@ async function createEvents(api: Api): Promise<void> {
   await createEvent(
     api,
     {
-      title: "Information Technologies Innovation Exact Sciences Physics...",
+      title: "Information Technologies Innovation",
       description:
         "📣\n\nThe conference unites leading universities and industrial enterprises to enable worthy candidates and young specialists find application for their abilities and gain practical skills in various fields.\n\n👇🔹Information Technologies\n🔹Innovation\n🔹Exact Sciences\n🔹Physics & Astronomy\n🔹Technology\n🔹Cyberphysical Aerospace systems\n🔹and more...\n\n📌Selection stage: 1 Feb - 10 Sept.\n📌Conference: 25 Oct - 3 Nov (online) or 5 Nov - 7 Nov (Offline)\n\n👉More info is available  or on  and .",
       tagIds: [tags["conference"].id, tags["job-fair"].id],
@@ -3006,7 +3005,7 @@ async function createEvents(api: Api): Promise<void> {
   await createEvent(
     api,
     {
-      title: "Public Speaking Debates Education Zone Chit-chat Club...",
+      title: "Public Speaking",
       description:
         "📣🔹Public Speaking\n🔹Debates\n🔹Education Zone\n🔹Chit-chat\n\n🗣Club meetings will happen occasionally once one of the branches is ready to perform.\n\n to stay informed about upcoming Talk Space gatherings.\n\n about Talk Space",
       tagIds: [tags["club-meeting"].id, tags["talk"].id],
@@ -3048,7 +3047,7 @@ async function createEvents(api: Api): Promise<void> {
   await createEvent(
     api,
     {
-      title: '"Personnel for the Future" working meeting chaired by',
+      title: '"Personnel for the Future" working meeting',
       description:
         '📣"Personnel for the Future" working meeting chaired by the Deputy Prime Minister of the Russian Federation Dmitry Chernyshenko\n\n📌March 6, 10:00-13:00\n\n🔹Meeting assistants at the Q&A sessions\n🔹Hospitality volunteers for visiting rectors\n\n😎👉Apply  by 15:00 today!\n‼️Fluent Russian is a must.',
       tagIds: [tags["volunteering"].id],
@@ -3063,7 +3062,7 @@ async function createEvents(api: Api): Promise<void> {
   await createEvent(
     api,
     {
-      title: "Compete in 4 disciplines! !",
+      title: "Compete in 4 disciplines!",
       description:
         "📣, \n\nHave a team of 3 people with at least one girl in it and compete in 4 disciplines!\n\n👥 !\n\n👉The captain must register the team .\n👉For questions: \n📔Read the rules .",
       tagIds: [tags["sports"].id],
@@ -3128,7 +3127,7 @@ async function createEvents(api: Api): Promise<void> {
   await createEvent(
     api,
     {
-      title: "ороиловски стрелок",
+      title: "Opportunity",
       description:
         "📣«Что? Где? Почему?»\n«Своя игра»\n«Эрудит-квартет»\n«Интеллектуальное шоу «Ворошиловский стрелок».\n\n🔹Next event is held on 4 April\n🔹Format: offline\n🔹Venue: Synergy University, Moscow\n🔹Price: 600 rubles per person\n\n👉More info: ",
       tagIds: [tags["game"].id, tags["sports"].id],
