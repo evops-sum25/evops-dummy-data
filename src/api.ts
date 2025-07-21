@@ -1,16 +1,16 @@
 import { Client, createClient } from "@connectrpc/connect";
 import { createGrpcWebTransport } from "@connectrpc/connect-web";
 import {
+  AuthService,
   EventService,
   TagService,
-  UserService,
 } from "./gen/evops/api/v1/api_pb.ts";
 
 export interface Api {
   url: URL;
   eventService: Client<typeof EventService>;
   tagService: Client<typeof TagService>;
-  userService: Client<typeof UserService>;
+  authService: Client<typeof AuthService>;
 }
 
 export async function initApi(apiUrl: URL): Promise<Api> {
@@ -19,8 +19,8 @@ export async function initApi(apiUrl: URL): Promise<Api> {
   });
   return {
     url: apiUrl,
+    authService: createClient(AuthService, grpcWebTransport),
     eventService: createClient(EventService, grpcWebTransport),
     tagService: createClient(TagService, grpcWebTransport),
-    userService: createClient(UserService, grpcWebTransport),
   };
 }
