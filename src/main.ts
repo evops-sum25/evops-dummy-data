@@ -166,6 +166,7 @@ async function createEvents(api: Api): Promise<void> {
 
   const tokens = await signUp(api, "o4u_user", "04u", "sasha123");
   const tags = await createTags(api, tokens.access);
+
   await createEvent(
     api,
     {
@@ -175,10 +176,10 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["volunteering"].id, tags["job-fair"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_2208@04-12-2024_14-44-37.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_692@05-04-2022_15-40-38.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_928@07-12-2022_15-43-11.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_694@06-04-2022_09-00-00.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1@15-11-2019_14-17-29.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2276@07-02-2025_16-30-44.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_706@11-04-2022_12-19-05.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1858@21-06-2024_09-24-01.jpg",
     ],
   );
 
@@ -190,7 +191,12 @@ async function createEvents(api: Api): Promise<void> {
         "Bonjour! Ça va?\nС\'est la vie.. \nCroissant.\n\n📣If these words sound familiar to you, then maybe you know something about French Language 😉🇫🇷\n\n Language Club invites you to the open French lesson for beginners by Aliance Francaise 😍\n\n🕢 1️⃣8️⃣:0️⃣0️⃣ in room 320!\n\n‼️Lesson will be held in Russian\n\nDo not hesitate to contact  or  with any questions.",
       tagIds: [tags["language-learning"].id],
     },
-    [],
+    [
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2@19-11-2019_17-20-16.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1426@08-11-2023_15-45-17.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_711@14-04-2022_17-51-43.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_667@18-03-2022_16-27-39.jpg",
+    ],
   );
 
   await createEvent(
@@ -202,8 +208,10 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["internship"].id, tags["job-fair"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1317@05-09-2023_12-00-53.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_2368@10-03-2025_20-02-39.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_3@21-11-2019_12-23-56.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1045@27-02-2023_18-30-23.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2318@19-02-2025_15-46-13.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1137@12-04-2023_12-30-46.jpg",
     ],
   );
 
@@ -215,7 +223,12 @@ async function createEvents(api: Api): Promise<void> {
         "‼️Want to upgrade your programming skills? We are glad to announce ourat Innopolis University, which will happen from 14 to 18 December! \n\nOur first ICPC winter camp is designed for  teams and will be held in December right after the final exams at Innopolis University. To take part:\n\n1. Have Timus Online account on .\n2. Solve 50 tasks on Timus Online by 6 December.\n3. Register for the camp .\n\n✅Camp curriculum for  will include 3 and 5 hours contests, problem analysis and upsolving practice. Even if you’re not in ICPC club yet you can join our camps now! \n\n👉Any questions: ",
       tagIds: [tags["programming"].id, tags["computer-science"].id],
     },
-    [],
+    [
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_9@27-11-2019_16-42-47.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1514@26-12-2023_12-05-17.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_598@20-01-2022_14-59-36.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1206@05-06-2023_13-01-41.jpg",
+    ],
   );
 
   await createEvent(
@@ -227,7 +240,7 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["business"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_2069@09-10-2024_09-36-02.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_10@02-12-2019_12-46-45.jpg",
     ],
   );
 
@@ -244,7 +257,12 @@ async function createEvents(api: Api): Promise<void> {
         tags["machine-learning"].id,
       ],
     },
-    [],
+    [
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_12@06-12-2019_13-31-18.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2104@24-10-2024_09-27-08.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_607@31-01-2022_13-36-23.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2334@24-02-2025_17-16-03.jpg",
+    ],
   );
 
   await createEvent(
@@ -256,7 +274,9 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["dance"].id, tags["music"].id, tags["master-class"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_668@19-03-2022_14-57-22.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_13@08-12-2019_15-42-13.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1443@14-11-2023_15-42-13.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1362@04-10-2023_11-01-44.jpg",
     ],
   );
 
@@ -274,9 +294,9 @@ async function createEvents(api: Api): Promise<void> {
       ],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1674@13-03-2024_09-35-25.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1562@01-02-2024_18-30-11.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_513@28-10-2021_15-09-10.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_14@11-12-2019_11-00-00.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2315@18-02-2025_17-29-54.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1392@23-10-2023_10-26-17.jpg",
     ],
   );
 
@@ -293,7 +313,10 @@ async function createEvents(api: Api): Promise<void> {
         tags["lecture"].id,
       ],
     },
-    [],
+    [
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_15@11-12-2019_15-53-35.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1079@17-03-2023_11-33-17.jpg",
+    ],
   );
 
   await createEvent(
@@ -305,9 +328,8 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["contest"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_449@13-09-2021_16-44-40.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_2369@11-03-2025_09-06-34.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1168@27-04-2023_16-45-09.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_17@12-12-2019_17-27-41.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1600@16-02-2024_13-38-10.jpg",
     ],
   );
 
@@ -320,9 +342,10 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["party"].id, tags["volunteering"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1547@30-01-2024_16-57-59.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1793@27-05-2024_13-33-35.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1619@28-02-2024_16-30-31.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_18@14-01-2020_12-04-05.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_624@10-02-2022_12-16-49.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2080@15-10-2024_16-45-07.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_453@15-09-2021_16-17-15.jpg",
     ],
   );
 
@@ -339,7 +362,9 @@ async function createEvents(api: Api): Promise<void> {
       ],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1904@12-07-2024_13-33-15.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_19@24-01-2020_11-26-45.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2032@20-09-2024_13-57-52.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2570@15-06-2025_16-53-17.jpg",
     ],
   );
 
@@ -351,7 +376,12 @@ async function createEvents(api: Api): Promise<void> {
         "🏃‍♀️Low Level Programming Club🌴 presents a brand-new workshop: \n\n«!\n\n🔵 You\'ll learn about the nRF52, Bluetooth-enables family of devices based on the ARM processors \n🔵 Find out differences and similarities with Arduino devices, also popular in the DIY field \n🔵 Learn different application possibilities and ways to program devices!\n\n🗓 Saturday, January 25th\n📍 Auditorium 318, 15:00\n🇬🇧 Workshop will be conducted in English\n\nJoin us at ",
       tagIds: [tags["workshop"].id, tags["programming"].id],
     },
-    [],
+    [
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_20@24-01-2020_14-30-39.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_597@20-01-2022_11-03-33.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_931@08-12-2022_14-00-46.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_852@17-10-2022_16-49-12.jpg",
+    ],
   );
 
   await createEvent(
@@ -363,7 +393,7 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["conference"].id, tags["seminar"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_861@25-10-2022_10-37-46.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_21@28-01-2020_17-02-21.jpg",
     ],
   );
 
@@ -376,7 +406,9 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["programming"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_531@18-11-2021_11-00-41.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_23@29-01-2020_14-57-07.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1618@27-02-2024_18-00-21.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1339@18-09-2023_19-03-15.jpg",
     ],
   );
 
@@ -393,8 +425,9 @@ async function createEvents(api: Api): Promise<void> {
       ],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1616@26-02-2024_12-30-43.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1615@25-02-2024_11-30-35.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_24@30-01-2020_12-41-31.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1046@28-02-2023_12-21-21.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1451@20-11-2023_10-17-30.jpg",
     ],
   );
 
@@ -407,10 +440,10 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["club-meeting"].id, tags["game"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_911@27-11-2022_13-00-45.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1130@09-04-2023_11-15-02.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1572@06-02-2024_14-30-48.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1387@16-10-2023_12-50-20.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_25@31-01-2020_15-33-03.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2325@21-02-2025_11-11-22.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1247@12-07-2023_14-02-03.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2092@21-10-2024_14-00-47.jpg",
     ],
   );
 
@@ -423,10 +456,10 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["club-meeting"].id, tags["programming"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_953@20-12-2022_18-02-10.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1050@02-03-2023_12-00-55.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1140@13-04-2023_15-00-27.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1389@16-10-2023_18-31-04.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_27@03-02-2020_15-08-06.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2024@18-09-2024_14-16-54.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2511@13-05-2025_11-22-12.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2322@20-02-2025_14-35-59.jpg",
     ],
   );
 
@@ -439,8 +472,7 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["contest"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_875@03-11-2022_11-07-30.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1710@01-04-2024_11-36-42.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_28@04-02-2020_11-02-43.jpg",
     ],
   );
 
@@ -457,7 +489,7 @@ async function createEvents(api: Api): Promise<void> {
       ],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_2483@22-04-2025_16-03-01.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_29@05-02-2020_11-00-55.jpg",
     ],
   );
 
@@ -475,10 +507,10 @@ async function createEvents(api: Api): Promise<void> {
       ],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_759@07-06-2022_17-12-38.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1537@27-01-2024_18-31-14.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_955@22-12-2022_17-23-43.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1681@14-03-2024_14-01-02.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_30@06-02-2020_15-45-34.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2496@29-04-2025_15-46-17.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2494@29-04-2025_12-59-57.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1216@15-06-2023_15-23-53.jpg",
     ],
   );
 
@@ -491,7 +523,9 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["contest"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_895@15-11-2022_13-16-01.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_31@07-02-2020_12-47-35.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2137@01-11-2024_09-36-04.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1406@30-10-2023_16-02-00.jpg",
     ],
   );
 
@@ -510,7 +544,9 @@ async function createEvents(api: Api): Promise<void> {
         tags["programming"].id,
       ],
     },
-    [],
+    [
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_32@07-02-2020_15-03-01.jpg",
+    ],
   );
 
   await createEvent(
@@ -521,7 +557,11 @@ async function createEvents(api: Api): Promise<void> {
         "🏐\n\n📌When: Today, 20:30\n📌Where: Sport Complex, Big Hall",
       tagIds: [tags["sports"].id],
     },
-    [],
+    [
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_33@07-02-2020_18-18-31.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_967@30-12-2022_15-04-03.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_616@05-02-2022_09-00-46.jpg",
+    ],
   );
 
   await createEvent(
@@ -533,9 +573,9 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["programming"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_2318@19-02-2025_15-46-13.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_763@14-06-2022_16-31-05.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_2249@11-01-2025_13-33-46.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_34@10-02-2020_13-27-20.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2117@28-10-2024_13-35-07.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2429@03-04-2025_09-59-52.jpg",
     ],
   );
 
@@ -548,8 +588,9 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["music"].id, tags["concert"].id, tags["talk"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_2283@11-02-2025_17-26-22.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1134@11-04-2023_17-01-27.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_35@11-02-2020_09-38-24.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_794@23-08-2022_10-40-19.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_911@27-11-2022_13-00-45.jpg",
     ],
   );
 
@@ -562,7 +603,8 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["concert"].id, tags["dance"].id, tags["programming"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1604@20-02-2024_16-25-14.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_38@17-02-2020_18-50-54.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1461@22-11-2023_12-51-44.jpg",
     ],
   );
 
@@ -575,7 +617,8 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["festival"].id, tags["sports"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_2079@15-10-2024_14-26-01.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_39@18-02-2020_11-38-26.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1936@06-08-2024_11-59-56.jpg",
     ],
   );
 
@@ -593,7 +636,8 @@ async function createEvents(api: Api): Promise<void> {
       ],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_891@09-11-2022_18-29-49.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_40@20-02-2020_17-41-04.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1668@12-03-2024_09-17-55.jpg",
     ],
   );
 
@@ -606,9 +650,9 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["programming"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_516@04-11-2021_18-41-32.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1451@20-11-2023_10-17-30.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1369@06-10-2023_10-42-01.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_41@21-02-2020_12-05-04.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2079@15-10-2024_14-26-01.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_518@09-11-2021_11-52-18.jpg",
     ],
   );
 
@@ -627,7 +671,9 @@ async function createEvents(api: Api): Promise<void> {
       ],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1122@05-04-2023_14-01-54.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_44@27-02-2020_18-08-07.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1441@13-11-2023_18-00-54.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1372@07-10-2023_14-00-29.jpg",
     ],
   );
 
@@ -643,7 +689,10 @@ async function createEvents(api: Api): Promise<void> {
         tags["volunteering"].id,
       ],
     },
-    [],
+    [
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_45@28-02-2020_15-11-56.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2461@13-04-2025_16-01-11.jpg",
+    ],
   );
 
   await createEvent(
@@ -655,7 +704,7 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["computer-science"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_942@15-12-2022_15-02-00.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_49@03-03-2020_11-01-31.jpg",
     ],
   );
 
@@ -668,8 +717,7 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["contest"].id, tags["artificial-intelligence"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1279@03-08-2023_10-30-14.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_786@28-07-2022_17-25-51.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_50@03-03-2020_15-05-09.jpg",
     ],
   );
 
@@ -682,7 +730,8 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["sports"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_687@31-03-2022_09-01-12.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_51@04-03-2020_10-15-51.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_862@25-10-2022_13-00-49.jpg",
     ],
   );
 
@@ -695,7 +744,7 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["contest"].id, tags["conference"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_2367@10-03-2025_18-46-32.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_52@04-03-2020_13-28-13.jpg",
     ],
   );
 
@@ -714,7 +763,9 @@ async function createEvents(api: Api): Promise<void> {
         tags["job-fair"].id,
       ],
     },
-    [],
+    [
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_53@05-03-2020_16-15-03.jpg",
+    ],
   );
 
   await createEvent(
@@ -726,7 +777,9 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["language-learning"].id, tags["club-meeting"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1012@11-02-2023_15-07-39.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_54@06-03-2020_11-14-06.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1856@20-06-2024_15-51-01.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2559@09-06-2025_15-02-29.jpg",
     ],
   );
 
@@ -739,9 +792,9 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["forum"].id, tags["conference"].id, tags["seminar"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_2362@07-03-2025_15-29-13.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_711@14-04-2022_17-51-43.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_2501@05-05-2025_15-26-49.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_55@06-03-2020_17-28-02.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_790@11-08-2022_12-39-55.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1022@14-02-2023_20-01-56.jpg",
     ],
   );
 
@@ -754,10 +807,9 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["programming"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_2247@29-12-2024_21-00-12.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1116@02-04-2023_19-00-01.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_2505@07-05-2025_15-05-45.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1427@08-11-2023_17-45-22.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_56@06-03-2020_20-00-03.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_804@06-09-2022_14-12-06.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1262@18-07-2023_12-01-50.jpg",
     ],
   );
 
@@ -770,9 +822,9 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["sports"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1521@12-01-2024_14-20-12.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1058@06-03-2023_12-30-47.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1089@23-03-2023_10-39-59.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_57@11-03-2020_10-55-37.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2462@14-04-2025_10-24-34.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1327@12-09-2023_12-01-59.jpg",
     ],
   );
 
@@ -790,7 +842,9 @@ async function createEvents(api: Api): Promise<void> {
         tags["contest"].id,
       ],
     },
-    [],
+    [
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_58@11-03-2020_16-47-03.jpg",
+    ],
   );
 
   await createEvent(
@@ -802,7 +856,8 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["game"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_2277@08-02-2025_12-05-59.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_59@12-03-2020_14-38-47.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2580@20-06-2025_12-04-37.jpg",
     ],
   );
 
@@ -814,7 +869,12 @@ async function createEvents(api: Api): Promise<void> {
         "‼️Last call for students wishing to support our Basketball team this Sunday. Put your telegram alias  if you wish to take the bus to the game. Deadline 13:00.\n\nIU - KazBas Camp\nSunday, 15 March, 17:30\nДК Московский",
       tagIds: [tags["sports"].id, tags["conference"].id],
     },
-    [],
+    [
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_60@13-03-2020_10-40-10.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1843@14-06-2024_15-33-01.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1828@08-06-2024_15-13-45.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1090@23-03-2023_13-01-13.jpg",
+    ],
   );
 
   await createEvent(
@@ -826,7 +886,7 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["talk"].id, tags["club-meeting"].id, tags["seminar"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_469@27-09-2021_20-00-05.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_61@13-03-2020_15-26-12.jpg",
     ],
   );
 
@@ -843,7 +903,8 @@ async function createEvents(api: Api): Promise<void> {
       ],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_631@16-02-2022_09-01-28.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_62@13-03-2020_18-15-43.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1328@12-09-2023_15-00-44.jpg",
     ],
   );
 
@@ -855,7 +916,9 @@ async function createEvents(api: Api): Promise<void> {
         "📣Digital Olympiad “Volga – IT’20”\n\n▪️Gain practical skills in IT\n▪️Get experience exchange\n▪️Obtain business relations\n\n🌇Where: Ulyanovsk\n📌When: 23 – 26 April\n👉Register  by April 1",
       tagIds: [tags["olympiad"].id, tags["business"].id],
     },
-    [],
+    [
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_63@16-03-2020_17-06-42.jpg",
+    ],
   );
 
   await createEvent(
@@ -867,9 +930,7 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["design"].id, tags["internship"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_843@10-10-2022_12-39-49.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_2582@20-06-2025_16-44-10.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1252@13-07-2023_14-00-47.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_64@17-03-2020_18-44-48.jpg",
     ],
   );
 
@@ -886,8 +947,8 @@ async function createEvents(api: Api): Promise<void> {
       ],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_704@08-04-2022_19-00-15.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1864@24-06-2024_18-15-33.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_65@19-03-2020_10-18-18.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1389@16-10-2023_18-31-04.jpg",
     ],
   );
 
@@ -900,10 +961,7 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["quiz"].id, tags["game"].id, tags["language-learning"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_2169@19-11-2024_12-00-37.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_945@16-12-2022_18-01-15.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_2254@23-01-2025_10-19-23.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_2118@28-10-2024_15-58-39.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_68@10-04-2020_13-29-39.jpg",
     ],
   );
 
@@ -916,7 +974,10 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["contest"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_2576@18-06-2025_10-10-14.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_71@28-04-2020_14-43-49.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1445@15-11-2023_16-30-37.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1538@28-01-2024_10-54-22.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2192@26-11-2024_15-06-23.jpg",
     ],
   );
 
@@ -933,7 +994,9 @@ async function createEvents(api: Api): Promise<void> {
       ],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_2312@17-02-2025_12-28-07.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_75@29-04-2020_09-00-03.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1147@17-04-2023_17-35-58.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1874@28-06-2024_18-15-27.jpg",
     ],
   );
 
@@ -950,8 +1013,8 @@ async function createEvents(api: Api): Promise<void> {
       ],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_892@10-11-2022_13-42-26.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_977@23-01-2023_10-40-15.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_76@29-04-2020_20-52-06.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1480@08-12-2023_19-30-49.jpg",
     ],
   );
 
@@ -970,7 +1033,10 @@ async function createEvents(api: Api): Promise<void> {
       ],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_2379@13-03-2025_19-01-44.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_81@07-05-2020_14-38-59.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1805@30-05-2024_18-27-56.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1756@27-04-2024_14-25-15.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1101@24-03-2023_12-02-05.jpg",
     ],
   );
 
@@ -983,7 +1049,8 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["hackathon"].id, tags["programming"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_488@07-10-2021_17-45-02.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_82@08-05-2020_12-27-35.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_640@24-02-2022_15-12-34.jpg",
     ],
   );
 
@@ -996,9 +1063,7 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["seminar"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1239@04-07-2023_17-30-04.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_560@02-12-2021_14-36-52.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_2536@27-05-2025_10-35-33.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_83@20-05-2020_17-16-09.jpg",
     ],
   );
 
@@ -1010,7 +1075,10 @@ async function createEvents(api: Api): Promise<void> {
         "\n\nJames Dyson is on the hunt for bright minds with fresh ideas from around the globe. If you have an invention that solves a problem and can change lives, the James Dyson Award rewards those who have the persistence and tenacity to develop their ideas.\n\n🔹Significant cash prize (from £2,000)\n🔹Make a name for yourself as an inventor\n🔹Develop tangible technologies \n🔹Generate media exposure to kick-start your career\n\n👉More info .\n🔥Application deadline: 16 July, by 10 am.",
       tagIds: [tags["contest"].id],
     },
-    [],
+    [
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_85@21-05-2020_17-57-25.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1428@09-11-2023_08-34-41.jpg",
+    ],
   );
 
   await createEvent(
@@ -1022,8 +1090,7 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["hackathon"].id, tags["startups"].id, tags["contest"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_2404@21-03-2025_11-06-08.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1187@17-05-2023_19-30-01.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_86@04-06-2020_13-18-01.jpg",
     ],
   );
 
@@ -1036,8 +1103,7 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["contest"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_918@01-12-2022_11-30-40.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_2577@18-06-2025_12-14-58.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_87@11-06-2020_11-18-00.jpg",
     ],
   );
 
@@ -1049,7 +1115,12 @@ async function createEvents(api: Api): Promise<void> {
         "📣- familiarity with Python, Git\n- fluent Russian\n\n📌19 June - training day 09:00-15:00\n📌20-21 June - work shifts 09:00-15:00\n\nYou will get branded T-shirts + 3 times-a-day meals.\n\n👉For more info and apply: ",
       tagIds: [tags["internship"].id],
     },
-    [],
+    [
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_88@18-06-2020_15-10-44.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1838@13-06-2024_14-26-01.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2548@02-06-2025_16-28-46.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2214@08-12-2024_08-27-16.jpg",
+    ],
   );
 
   await createEvent(
@@ -1060,7 +1131,9 @@ async function createEvents(api: Api): Promise<void> {
         "📣\n📌4-5 July\n\n🔹Teams from 2 people\n🔹48 hours, work where you want\n🔹147 real cases from 5 countries which are aimed at solving global socio-economic issues through application of data science and artificial intelligence.\n\n👉Project news: \n👉More info & apply: \n‼️\n\n✅",
       tagIds: [tags["hackathon"].id],
     },
-    [],
+    [
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_89@02-07-2020_15-27-16.jpg",
+    ],
   );
 
   await createEvent(
@@ -1077,10 +1150,9 @@ async function createEvents(api: Api): Promise<void> {
       ],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_2045@30-09-2024_16-41-38.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1277@01-08-2023_12-00-35.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1917@18-07-2024_12-00-55.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1345@21-09-2023_13-30-57.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_90@07-07-2020_11-33-05.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2175@20-11-2024_14-01-26.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1180@10-05-2023_17-01-22.jpg",
     ],
   );
 
@@ -1093,9 +1165,10 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["sports"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_2539@28-05-2025_10-59-39.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1876@01-07-2024_13-55-00.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_728@06-05-2022_11-02-39.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_91@13-07-2020_17-09-11.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2455@10-04-2025_17-34-20.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1020@14-02-2023_12-20-11.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2368@10-03-2025_20-02-39.jpg",
     ],
   );
 
@@ -1108,10 +1181,7 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["contest"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1107@29-03-2023_13-06-01.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_2101@23-10-2024_15-43-30.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_708@12-04-2022_16-00-28.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1185@16-05-2023_14-40-40.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_92@14-07-2020_09-36-02.jpg",
     ],
   );
 
@@ -1129,10 +1199,9 @@ async function createEvents(api: Api): Promise<void> {
       ],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_994@03-02-2023_19-01-02.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1149@18-04-2023_12-01-01.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1463@23-11-2023_17-25-06.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1303@30-08-2023_17-00-55.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_93@16-07-2020_15-01-40.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2082@16-10-2024_14-26-01.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1852@19-06-2024_17-47-56.jpg",
     ],
   );
 
@@ -1145,9 +1214,9 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["contest"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1930@26-07-2024_14-01-36.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1136@12-04-2023_10-28-53.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_2548@02-06-2025_16-28-46.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_94@16-07-2020_17-12-49.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_456@17-09-2021_11-50-56.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_824@20-09-2022_18-30-19.jpg",
     ],
   );
 
@@ -1160,8 +1229,8 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["science"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1020@14-02-2023_12-20-11.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_2343@28-02-2025_12-26-09.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_95@23-07-2020_17-49-00.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2536@27-05-2025_10-35-33.jpg",
     ],
   );
 
@@ -1178,8 +1247,7 @@ async function createEvents(api: Api): Promise<void> {
       ],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_2466@14-04-2025_18-32-00.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_2502@06-05-2025_15-05-15.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_96@11-08-2020_10-59-15.jpg",
     ],
   );
 
@@ -1192,7 +1260,10 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["contest"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_2520@16-05-2025_16-33-01.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_99@17-08-2020_18-00-32.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1670@12-03-2024_12-30-20.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2346@03-03-2025_12-01-49.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_591@18-01-2022_16-30-18.jpg",
     ],
   );
 
@@ -1204,7 +1275,11 @@ async function createEvents(api: Api): Promise<void> {
         '📣. \n‼️Online/Offline formats\n👇Sudak city\n\nForm professional art communities, give life to your artistic ideas and find mechanisms for governmental and social support.\n\nFestival\'s program will include flash mobs, art performances, fashion designer shows, costume night processions, theatrical and circus performances, film screenings, contemporary art exhibitions, stand-up performances, creative competencies open championship "ArtMasters", and more.\n\n👉More info & apply: \n📌Application deadline: 20 August',
       tagIds: [tags["programming"].id, tags["festival"].id, tags["art"].id],
     },
-    [],
+    [
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_100@18-08-2020_11-45-06.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1835@11-06-2024_13-34-55.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2415@28-03-2025_18-07-10.jpg",
+    ],
   );
 
   await createEvent(
@@ -1221,7 +1296,12 @@ async function createEvents(api: Api): Promise<void> {
         tags["programming"].id,
       ],
     },
-    [],
+    [
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_101@20-08-2020_11-04-28.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1604@20-02-2024_16-25-14.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_787@03-08-2022_11-57-31.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_772@23-06-2022_16-02-40.jpg",
+    ],
   );
 
   await createEvent(
@@ -1233,8 +1313,9 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["programming"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_734@12-05-2022_18-01-38.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1733@12-04-2024_18-15-05.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_102@25-08-2020_10-00-07.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1297@28-08-2023_18-10-01.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1377@10-10-2023_15-01-11.jpg",
     ],
   );
 
@@ -1247,10 +1328,7 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["job-fair"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_563@06-12-2021_18-28-41.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1924@23-07-2024_17-25-37.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1343@20-09-2023_18-30-27.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1319@06-09-2023_18-00-41.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_103@26-08-2020_17-30-05.jpg",
     ],
   );
 
@@ -1263,9 +1341,7 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["master-class"].id, tags["programming"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1927@25-07-2024_14-16-58.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_456@17-09-2021_11-50-56.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_691@05-04-2022_12-01-12.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_104@27-08-2020_17-54-12.jpg",
     ],
   );
 
@@ -1278,8 +1354,8 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["contest"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_896@16-11-2022_15-08-44.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1361@04-10-2023_09-00-20.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_105@27-08-2020_19-30-05.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1042@26-02-2023_17-00-17.jpg",
     ],
   );
 
@@ -1292,9 +1368,9 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["robotics"].id, tags["conference"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_725@29-04-2022_17-59-20.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1226@23-06-2023_20-30-42.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_2570@15-06-2025_16-53-17.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_106@28-08-2020_13-51-34.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1072@11-03-2023_23-04-55.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_861@25-10-2022_10-37-46.jpg",
     ],
   );
 
@@ -1307,7 +1383,9 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["programming"].id, tags["workshop"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_570@11-12-2021_20-25-00.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_107@30-08-2020_10-33-48.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2500@05-05-2025_12-59-59.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1507@20-12-2023_15-45-10.jpg",
     ],
   );
 
@@ -1325,9 +1403,8 @@ async function createEvents(api: Api): Promise<void> {
       ],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_2258@27-01-2025_16-02-31.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_625@11-02-2022_14-46-33.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_2018@13-09-2024_16-01-09.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_108@01-09-2020_12-49-53.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2180@21-11-2024_13-44-23.jpg",
     ],
   );
 
@@ -1344,8 +1421,8 @@ async function createEvents(api: Api): Promise<void> {
       ],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_637@22-02-2022_13-53-26.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1304@30-08-2023_18-01-10.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_109@01-09-2020_15-30-04.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_543@24-11-2021_18-08-28.jpg",
     ],
   );
 
@@ -1362,7 +1439,12 @@ async function createEvents(api: Api): Promise<void> {
         tags["job-fair"].id,
       ],
     },
-    [],
+    [
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_110@03-09-2020_13-41-47.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1459@21-11-2023_18-30-40.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1704@27-03-2024_17-19-23.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_763@14-06-2022_16-31-05.jpg",
+    ],
   );
 
   await createEvent(
@@ -1374,9 +1456,9 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["workshop"].id, tags["seminar"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1315@01-09-2023_15-56-39.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_460@20-09-2021_19-30-04.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1858@21-06-2024_09-24-01.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_111@03-09-2020_16-30-05.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_603@27-01-2022_17-13-43.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1876@01-07-2024_13-55-00.jpg",
     ],
   );
 
@@ -1389,7 +1471,10 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["mathematics"].id, tags["club-meeting"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1954@22-08-2024_17-56-02.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_112@04-09-2020_12-08-57.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_578@24-12-2021_12-03-50.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2161@14-11-2024_16-24-52.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2097@22-10-2024_17-39-01.jpg",
     ],
   );
 
@@ -1402,7 +1487,8 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["sports"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_2506@08-05-2025_11-04-07.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_113@04-09-2020_16-35-03.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1251@13-07-2023_12-00-05.jpg",
     ],
   );
 
@@ -1415,9 +1501,8 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["hackathon"].id, tags["forum"].id, tags["data-science"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_968@30-12-2022_18-01-00.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_937@13-12-2022_14-01-54.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1730@11-04-2024_16-20-07.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_114@07-09-2020_12-59-01.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1197@27-05-2023_12-00-02.jpg",
     ],
   );
 
@@ -1430,7 +1515,7 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["startups"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_578@24-12-2021_12-03-50.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_116@09-09-2020_09-15-03.jpg",
     ],
   );
 
@@ -1443,8 +1528,9 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["workshop"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1483@12-12-2023_09-15-00.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_684@30-03-2022_13-14-07.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_117@09-09-2020_18-05-05.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_668@19-03-2022_14-57-22.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1324@10-09-2023_19-30-20.jpg",
     ],
   );
 
@@ -1457,7 +1543,10 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["language-learning"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1213@13-06-2023_11-30-07.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_118@09-09-2020_20-00-04.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1698@22-03-2024_14-52-29.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2584@23-06-2025_14-06-24.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2572@16-06-2025_18-27-25.jpg",
     ],
   );
 
@@ -1470,8 +1559,7 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["party"].id, tags["dance"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_2123@30-10-2024_11-07-01.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_2038@24-09-2024_09-20-29.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_119@10-09-2020_12-15-58.jpg",
     ],
   );
 
@@ -1484,7 +1572,10 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["art"].id, tags["internship"].id, tags["programming"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_534@19-11-2021_16-42-14.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_120@10-09-2020_17-00-05.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1442@14-11-2023_09-29-08.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2174@20-11-2024_12-02-12.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_609@01-02-2022_14-52-04.jpg",
     ],
   );
 
@@ -1503,8 +1594,9 @@ async function createEvents(api: Api): Promise<void> {
       ],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1794@27-05-2024_15-01-48.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1251@13-07-2023_12-00-05.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_121@11-09-2020_10-07-57.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2254@23-01-2025_10-19-23.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1961@26-08-2024_16-35-20.jpg",
     ],
   );
 
@@ -1524,7 +1616,10 @@ async function createEvents(api: Api): Promise<void> {
         tags["forum"].id,
       ],
     },
-    [],
+    [
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_122@11-09-2020_14-30-05.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2272@06-02-2025_10-04-58.jpg",
+    ],
   );
 
   await createEvent(
@@ -1535,7 +1630,10 @@ async function createEvents(api: Api): Promise<void> {
         "📣  ICPC Qualification Stage, 11-25 Sept, approx. 10 hours\n\n👤 Job decription: event promotion among IU students, coordination and assistance in team organization for the ICPC.\n\n👉 Apply & more volunteering opportunities .",
       tagIds: [tags["volunteering"].id],
     },
-    [],
+    [
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_123@11-09-2020_17-30-04.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2165@16-11-2024_20-08-20.jpg",
+    ],
   );
 
   await createEvent(
@@ -1547,7 +1645,10 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["art"].id, tags["internship"].id, tags["programming"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1780@17-05-2024_09-32-01.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_125@14-09-2020_14-03-04.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1559@01-02-2024_11-40-14.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2470@15-04-2025_17-59-57.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2520@16-05-2025_16-33-01.jpg",
     ],
   );
 
@@ -1564,10 +1665,10 @@ async function createEvents(api: Api): Promise<void> {
       ],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_661@15-03-2022_15-03-59.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1476@06-12-2023_11-32-50.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_2356@05-03-2025_16-31-09.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_865@25-10-2022_19-35-07.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_126@14-09-2020_19-00-05.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1076@14-03-2023_18-01-15.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1403@27-10-2023_15-59-14.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_729@09-05-2022_13-52-59.jpg",
     ],
   );
 
@@ -1584,9 +1685,9 @@ async function createEvents(api: Api): Promise<void> {
       ],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1722@04-04-2024_12-30-51.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1912@16-07-2024_14-01-01.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_2216@08-12-2024_19-05-00.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_127@15-09-2020_11-33-12.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1351@27-09-2023_10-45-20.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1880@03-07-2024_11-28-02.jpg",
     ],
   );
 
@@ -1599,7 +1700,9 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["conference"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_768@17-06-2022_10-55-31.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_128@15-09-2020_17-31-04.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1193@24-05-2023_14-01-08.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2051@03-10-2024_13-25-52.jpg",
     ],
   );
 
@@ -1612,7 +1715,10 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["conference"].id, tags["job-fair"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1354@28-09-2023_19-21-37.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_129@16-09-2020_16-44-22.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_484@06-10-2021_14-30-04.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2447@08-04-2025_15-47-09.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_464@22-09-2021_16-30-02.jpg",
     ],
   );
 
@@ -1625,8 +1731,9 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["game"].id, tags["sports"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_571@17-12-2021_11-18-04.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_628@14-02-2022_13-01-35.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_130@16-09-2020_18-30-04.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_750@24-05-2022_10-02-07.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2300@14-02-2025_12-01-38.jpg",
     ],
   );
 
@@ -1638,7 +1745,12 @@ async function createEvents(api: Api): Promise<void> {
         "📣Digital week-2020 forum - ✅Track: AV/VR\n\nDIGITAL SUPERHERO is an all-Russian series of online hackathons on various topics, which main goal is to create favorable conditions for the development of ideas in the field of digital technologies in various sectors of economy. \n\n📌18-23 Sept (starting tomorrow!)\n👤Teams 2-5 people\n👉More info 👉To apply message \n‼️",
       tagIds: [tags["hackathon"].id, tags["forum"].id],
     },
-    [],
+    [
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_134@17-09-2020_12-48-58.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1927@25-07-2024_14-16-58.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_945@16-12-2022_18-01-15.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2473@16-04-2025_18-10-53.jpg",
+    ],
   );
 
   await createEvent(
@@ -1650,8 +1762,10 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["sports"].id, tags["contest"].id, tags["game"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1230@27-06-2023_19-01-32.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1340@19-09-2023_09-47-01.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_135@17-09-2020_17-00-03.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1009@10-02-2023_13-15-06.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1307@31-08-2023_10-04-54.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2000@05-09-2024_10-12-18.jpg",
     ],
   );
 
@@ -1664,10 +1778,7 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["sports"].id, tags["game"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_2377@13-03-2025_15-02-30.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1695@21-03-2024_12-30-14.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1606@21-02-2024_16-24-01.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_2559@09-06-2025_15-02-29.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_136@21-09-2020_14-11-55.jpg",
     ],
   );
 
@@ -1684,10 +1795,8 @@ async function createEvents(api: Api): Promise<void> {
       ],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1597@16-02-2024_09-19-51.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_591@18-01-2022_16-30-18.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1396@24-10-2023_11-43-16.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_508@22-10-2021_10-52-07.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_137@21-09-2020_17-20-55.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1941@12-08-2024_09-59-58.jpg",
     ],
   );
 
@@ -1700,9 +1809,9 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["hackathon"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_2560@10-06-2025_09-05-23.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1086@22-03-2023_15-30-50.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_830@28-09-2022_14-12-42.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_138@23-09-2020_12-26-13.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1108@29-03-2023_15-31-33.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2247@29-12-2024_21-00-12.jpg",
     ],
   );
 
@@ -1715,7 +1824,9 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["club-meeting"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1765@03-05-2024_17-50-22.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_139@24-09-2020_13-30-05.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2562@10-06-2025_17-03-28.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1505@20-12-2023_11-45-17.jpg",
     ],
   );
 
@@ -1728,8 +1839,8 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["job-fair"].id, tags["internship"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1092@23-03-2023_18-01-25.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_2436@04-04-2025_10-02-53.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_141@28-09-2020_16-56-04.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2268@05-02-2025_11-33-26.jpg",
     ],
   );
 
@@ -1746,7 +1857,9 @@ async function createEvents(api: Api): Promise<void> {
       ],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_2279@10-02-2025_11-31-40.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_142@29-09-2020_15-38-42.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_574@21-12-2021_17-57-01.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2243@23-12-2024_17-27-16.jpg",
     ],
   );
 
@@ -1764,9 +1877,7 @@ async function createEvents(api: Api): Promise<void> {
       ],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_2039@24-09-2024_11-45-27.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_2161@14-11-2024_16-24-52.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1172@04-05-2023_17-31-00.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_145@30-09-2020_10-34-38.jpg",
     ],
   );
 
@@ -1779,9 +1890,10 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["internship"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_782@13-07-2022_12-16-26.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1661@06-03-2024_09-16-02.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1432@10-11-2023_12-30-57.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_146@30-09-2020_17-00-18.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1055@04-03-2023_17-57-16.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1296@27-08-2023_19-10-01.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2336@25-02-2025_15-11-49.jpg",
     ],
   );
 
@@ -1800,7 +1912,8 @@ async function createEvents(api: Api): Promise<void> {
       ],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_2114@27-10-2024_12-01-30.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_147@01-10-2020_14-16-58.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1326@11-09-2023_15-32-00.jpg",
     ],
   );
 
@@ -1818,9 +1931,8 @@ async function createEvents(api: Api): Promise<void> {
       ],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1827@07-06-2024_22-30-41.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1241@06-07-2023_12-30-21.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1307@31-08-2023_10-04-54.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_148@01-10-2020_18-00-04.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_811@14-09-2022_17-03-12.jpg",
     ],
   );
 
@@ -1833,10 +1945,9 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["business"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1727@09-04-2024_11-02-40.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1381@11-10-2023_19-15-01.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_996@04-02-2023_15-15-04.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_2549@02-06-2025_17-53-50.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_150@02-10-2020_15-06-45.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_826@21-09-2022_16-44-51.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2191@25-11-2024_20-38-21.jpg",
     ],
   );
 
@@ -1849,7 +1960,7 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["mathematics"].id, tags["contest"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_642@26-02-2022_11-00-00.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_151@05-10-2020_14-52-25.jpg",
     ],
   );
 
@@ -1861,7 +1972,12 @@ async function createEvents(api: Api): Promise<void> {
         "📣 Someone who is tired of living in dull townships among gray concrete boxes and knows how to turn them into utopian garden cities.\n\n🔹Students, 1 or 2 people per idea.\n🔹From 18 y/o, Fluent English\n🔹Best ideas will be connected with expert mentors and other resources for implementation.\n\n✅Topics are limited only by your imagination, but you can start from this: Education, Clean Water, Sources of Energy, Career, Body and Mind, Accessible Environment, Smart Cities, Climate Change.\n\n📌Application deadline 25 Oct\n👉To apply record 1-minute video and upload it .",
       tagIds: [tags["language-learning"].id],
     },
-    [],
+    [
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_152@06-10-2020_10-27-41.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1861@24-06-2024_12-21-01.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2606@07-07-2025_16-13-38.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1731@12-04-2024_14-27-24.jpg",
+    ],
   );
 
   await createEvent(
@@ -1873,9 +1989,7 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["hackathon"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1824@07-06-2024_14-20-17.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_641@25-02-2022_12-40-52.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1911@16-07-2024_12-00-54.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_153@06-10-2020_14-13-58.jpg",
     ],
   );
 
@@ -1888,8 +2002,8 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["contest"].id, tags["science"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_961@28-12-2022_17-01-14.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1840@14-06-2024_09-11-01.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_154@08-10-2020_12-08-24.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2321@20-02-2025_12-32-08.jpg",
     ],
   );
 
@@ -1901,7 +2015,12 @@ async function createEvents(api: Api): Promise<void> {
         "📣«Modern Network Technologies, MoNeTec- 2020» International Conference and Exhibition.\n\n🔹online format\n🔹9 topics\n🔹12 expert speakers from Russia, USA, France, China, Sri Lanka and Nepal.\n\n📌27-29 October\n\n👉Conference 👉Apply to be a listener ",
       tagIds: [tags["conference"].id],
     },
-    [],
+    [
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_155@08-10-2020_17-00-03.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1952@22-08-2024_12-01-10.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1209@08-06-2023_18-08-26.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2265@02-02-2025_17-28-15.jpg",
+    ],
   );
 
   await createEvent(
@@ -1913,9 +2032,9 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["contest"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1250@13-07-2023_10-00-20.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_855@18-10-2022_17-02-29.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1685@16-03-2024_11-05-18.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_156@09-10-2020_11-00-03.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1954@22-08-2024_17-56-02.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2516@15-05-2025_09-44-54.jpg",
     ],
   );
 
@@ -1928,7 +2047,9 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["mathematics"].id, tags["contest"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1144@16-04-2023_20-09-19.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_157@12-10-2020_13-30-04.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1467@28-11-2023_15-28-07.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2207@04-12-2024_12-00-20.jpg",
     ],
   );
 
@@ -1941,9 +2062,10 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["contest"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_781@11-07-2022_18-01-01.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_2034@20-09-2024_17-08-01.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_2180@21-11-2024_13-44-23.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_159@14-10-2020_15-37-44.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2578@18-06-2025_18-01-00.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_807@07-09-2022_14-29-23.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1490@15-12-2023_17-00-02.jpg",
     ],
   );
 
@@ -1956,10 +2078,8 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["club-meeting"].id, tags["game"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_544@25-11-2021_12-19-41.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_582@10-01-2022_10-12-14.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_2057@07-10-2024_12-59-54.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_869@27-10-2022_15-28-01.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_160@16-10-2020_15-24-27.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_899@18-11-2022_10-54-55.jpg",
     ],
   );
 
@@ -1972,9 +2092,10 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["dance"].id, tags["programming"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1852@19-06-2024_17-47-56.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1008@10-02-2023_12-16-37.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_780@06-07-2022_12-07-46.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_161@20-10-2020_15-56-09.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1170@30-04-2023_20-10-06.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_687@31-03-2022_09-01-12.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1786@21-05-2024_16-10-32.jpg",
     ],
   );
 
@@ -1987,9 +2108,9 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["seminar"].id, tags["conference"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1599@16-02-2024_13-22-01.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1704@27-03-2024_17-19-23.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_2235@17-12-2024_13-01-59.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_162@20-10-2020_18-00-00.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1948@20-08-2024_13-46-41.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_845@10-10-2022_19-35-04.jpg",
     ],
   );
 
@@ -2005,7 +2126,11 @@ async function createEvents(api: Api): Promise<void> {
         tags["business"].id,
       ],
     },
-    [],
+    [
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_163@21-10-2020_10-29-27.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1599@16-02-2024_13-22-01.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2255@23-01-2025_16-37-45.jpg",
+    ],
   );
 
   await createEvent(
@@ -2016,7 +2141,12 @@ async function createEvents(api: Api): Promise<void> {
         "🕺🕺💃💃\n\nBreak Dance club now has more to offer! Yes, just like the video game this club is all about Dance. \n\n\n\n👇\n\n-Break Dance\n-Popping\n-Shuffle\n-HipHop etc.\n\n📌Monday, Wednesday 18:00-20:00\n📌Sports Complex, Room 233\n\n👉, so just  and enjoy!",
       tagIds: [tags["dance"].id, tags["programming"].id],
     },
-    [],
+    [
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_164@21-10-2020_13-30-04.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_611@01-02-2022_20-30-54.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1419@05-11-2023_19-02-20.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2404@21-03-2025_11-06-08.jpg",
+    ],
   );
 
   await createEvent(
@@ -2027,7 +2157,11 @@ async function createEvents(api: Api): Promise<void> {
         '📣Student Union are looking for amazing  VOLUNTEERS to host another incredible night at HALLOWEEN on 31 October!\n\n👉Browse available roles . \n\n🤡Event organizers are also looking for, apply for "Station worker" if interested.',
       tagIds: [tags["volunteering"].id],
     },
-    [],
+    [
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_165@22-10-2020_16-01-22.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1276@31-07-2023_19-55-06.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1366@05-10-2023_12-01-50.jpg",
+    ],
   );
 
   await createEvent(
@@ -2039,8 +2173,9 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["olympiad"].id, tags["computer-science"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_2188@24-11-2024_12-02-15.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_649@05-03-2022_09-45-03.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_166@23-10-2020_16-14-30.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2588@24-06-2025_13-46-46.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_802@05-09-2022_16-00-52.jpg",
     ],
   );
 
@@ -2053,7 +2188,10 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["data-science"].id, tags["machine-learning"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1737@16-04-2024_12-01-55.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_168@27-10-2020_16-51-59.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_832@03-10-2022_15-32-00.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2178@21-11-2024_10-02-01.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2384@15-03-2025_12-02-34.jpg",
     ],
   );
 
@@ -2066,9 +2204,7 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["contest"].id, tags["conference"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_2324@20-02-2025_18-34-50.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1862@24-06-2024_14-16-01.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1337@17-09-2023_18-12-15.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_169@28-10-2020_13-21-59.jpg",
     ],
   );
 
@@ -2081,8 +2217,9 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["cybersecurity"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_885@08-11-2022_11-38-26.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1511@24-12-2023_19-05-03.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_170@28-10-2020_18-43-23.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2015@12-09-2024_16-37-20.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2193@26-11-2024_18-34-30.jpg",
     ],
   );
 
@@ -2095,10 +2232,10 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["sports"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1894@10-07-2024_13-00-52.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_845@10-10-2022_19-35-04.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_846@12-10-2022_12-56-15.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1522@15-01-2024_18-15-01.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_171@29-10-2020_12-30-19.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1455@20-11-2023_18-35-13.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2518@15-05-2025_15-40-56.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1133@11-04-2023_14-33-05.jpg",
     ],
   );
 
@@ -2116,9 +2253,8 @@ async function createEvents(api: Api): Promise<void> {
       ],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_917@30-11-2022_10-07-43.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1796@28-05-2024_09-05-12.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1890@09-07-2024_11-33-02.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_172@29-10-2020_15-00-04.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2354@04-03-2025_16-06-23.jpg",
     ],
   );
 
@@ -2131,9 +2267,7 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["game"].id, tags["talk"].id, tags["startups"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_947@17-12-2022_17-30-28.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_2585@23-06-2025_16-01-39.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1120@05-04-2023_10-01-32.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_173@29-10-2020_18-00-04.jpg",
     ],
   );
 
@@ -2146,8 +2280,7 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["contest"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1809@03-06-2024_10-01-08.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_941@15-12-2022_14-00-24.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_178@09-11-2020_15-36-07.jpg",
     ],
   );
 
@@ -2160,10 +2293,8 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["contest"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1188@18-05-2023_12-01-32.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_822@20-09-2022_13-51-50.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1178@10-05-2023_10-41-20.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1282@07-08-2023_12-01-25.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_179@11-11-2020_16-12-44.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1986@31-08-2024_12-00-59.jpg",
     ],
   );
 
@@ -2176,9 +2307,8 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["contest"].id, tags["olympiad"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1810@04-06-2024_10-55-16.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1051@02-03-2023_15-00-53.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_849@12-10-2022_18-05-03.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_182@16-11-2020_15-57-50.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2096@22-10-2024_15-39-31.jpg",
     ],
   );
 
@@ -2191,8 +2321,9 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["robotics"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1220@18-06-2023_19-10-02.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_619@08-02-2022_12-32-17.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_185@16-11-2020_18-45-03.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1215@14-06-2023_17-45-07.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1030@20-02-2023_19-20-01.jpg",
     ],
   );
 
@@ -2205,9 +2336,8 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["sports"].id, tags["talk"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_2024@18-09-2024_14-16-54.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1323@08-09-2023_17-01-42.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1931@29-07-2024_15-10-02.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_186@18-11-2020_11-28-57.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_710@14-04-2022_10-51-00.jpg",
     ],
   );
 
@@ -2224,7 +2354,11 @@ async function createEvents(api: Api): Promise<void> {
         tags["game"].id,
       ],
     },
-    [],
+    [
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_187@21-11-2020_12-40-36.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1889@08-07-2024_13-52-50.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1926@24-07-2024_12-00-19.jpg",
+    ],
   );
 
   await createEvent(
@@ -2235,7 +2369,10 @@ async function createEvents(api: Api): Promise<void> {
         "📣\n\nPresent your work to industry experts, expand your network of professional contacts and apply your solutions into operational processes of the Accounts Chamber\n of Russia.\n\n▪️Over 15 tasks and problem areas to select and solve.\n▪️Experts assigned to each team\n▪️One month to develop a solution\n\n👤3-4 year bachelors, master degree students\n📌Application deadline: 27 Nov\n",
       tagIds: [tags["internship"].id],
     },
-    [],
+    [
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_188@23-11-2020_13-02-44.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1241@06-07-2023_12-30-21.jpg",
+    ],
   );
 
   await createEvent(
@@ -2250,7 +2387,11 @@ async function createEvents(api: Api): Promise<void> {
         tags["festival"].id,
       ],
     },
-    [],
+    [
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_190@24-11-2020_11-47-32.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2367@10-03-2025_18-46-32.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2263@31-01-2025_14-43-35.jpg",
+    ],
   );
 
   await createEvent(
@@ -2262,10 +2403,8 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["contest"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1888@04-07-2024_17-48-30.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1181@11-05-2023_13-53-12.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1735@15-04-2024_19-03-58.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1391@21-10-2023_12-31-04.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_191@26-11-2020_10-50-26.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2068@08-10-2024_17-23-19.jpg",
     ],
   );
 
@@ -2278,10 +2417,10 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["talk"].id, tags["programming"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_2491@25-04-2025_17-22-00.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_543@24-11-2021_18-08-28.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_2212@06-12-2024_14-57-17.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1891@09-07-2024_16-17-01.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_192@27-11-2020_17-56-43.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_904@21-11-2022_17-31-17.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1003@07-02-2023_15-31-08.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1192@23-05-2023_10-00-37.jpg",
     ],
   );
 
@@ -2299,7 +2438,8 @@ async function createEvents(api: Api): Promise<void> {
       ],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_899@18-11-2022_10-54-55.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_193@30-11-2020_14-35-09.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1796@28-05-2024_09-05-12.jpg",
     ],
   );
 
@@ -2312,9 +2452,7 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["hackathon"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1915@17-07-2024_15-19-09.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1756@27-04-2024_14-25-15.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_2341@27-02-2025_14-16-12.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_194@30-11-2020_18-30-04.jpg",
     ],
   );
 
@@ -2327,8 +2465,9 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["seminar"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_797@31-08-2022_17-12-38.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1121@05-04-2023_12-01-29.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_196@03-12-2020_11-54-34.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1085@21-03-2023_19-01-27.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_605@28-01-2022_17-30-46.jpg",
     ],
   );
 
@@ -2341,7 +2480,10 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["internship"].id, tags["business"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_2317@19-02-2025_14-03-06.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_197@07-12-2020_13-00-27.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_764@16-06-2022_10-43-46.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2380@14-03-2025_11-01-54.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2036@23-09-2024_14-26-39.jpg",
     ],
   );
 
@@ -2354,7 +2496,7 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["programming"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1701@25-03-2024_15-51-48.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_201@11-12-2020_09-00-02.jpg",
     ],
   );
 
@@ -2366,7 +2508,12 @@ async function createEvents(api: Api): Promise<void> {
         "📣\n\n👕Best design will be selected for production.\n👤Questions: \n👉More info ",
       tagIds: [tags["design"].id, tags["contest"].id, tags["hackathon"].id],
     },
-    [],
+    [
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_202@11-12-2020_13-00-03.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2595@01-07-2025_10-12-58.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1425@08-11-2023_14-00-10.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2069@09-10-2024_09-36-02.jpg",
+    ],
   );
 
   await createEvent(
@@ -2386,10 +2533,9 @@ async function createEvents(api: Api): Promise<void> {
       ],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_2580@20-06-2025_12-04-37.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1498@19-12-2023_16-00-59.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_2528@20-05-2025_17-57-30.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1457@21-11-2023_14-30-44.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_204@14-12-2020_12-12-05.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1752@26-04-2024_09-26-45.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2140@05-11-2024_10-34-19.jpg",
     ],
   );
 
@@ -2402,9 +2548,10 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["job-fair"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_2202@03-12-2024_09-05-12.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_2486@24-04-2025_16-02-23.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_744@19-05-2022_10-12-37.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_205@14-12-2020_14-44-31.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_508@22-10-2021_10-52-07.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_915@28-11-2022_16-49-50.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2314@17-02-2025_16-29-55.jpg",
     ],
   );
 
@@ -2416,7 +2563,8 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["sports"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_757@03-06-2022_09-00-22.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_206@14-12-2020_17-11-47.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1360@03-10-2023_19-01-03.jpg",
     ],
   );
 
@@ -2429,9 +2577,10 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["workshop"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1176@07-05-2023_19-00-09.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_760@10-06-2022_11-38-31.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_608@31-01-2022_17-01-20.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_207@14-12-2020_18-06-56.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2324@20-02-2025_18-34-50.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1127@07-04-2023_10-22-50.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1781@17-05-2024_12-01-33.jpg",
     ],
   );
 
@@ -2444,8 +2593,8 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["conference"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1953@22-08-2024_16-08-50.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_2193@26-11-2024_18-34-30.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_208@15-12-2020_18-00-04.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1260@17-07-2023_18-01-27.jpg",
     ],
   );
 
@@ -2458,7 +2607,7 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["job-fair"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1725@05-04-2024_15-51-55.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_209@16-12-2020_17-40-02.jpg",
     ],
   );
 
@@ -2469,7 +2618,11 @@ async function createEvents(api: Api): Promise<void> {
       description: " drawing TODAY for us!\n\n😉See you at 16.00, room #102",
       tagIds: [tags["art"].id],
     },
-    [],
+    [
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_210@17-12-2020_15-00-22.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_785@27-07-2022_17-39-58.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_530@17-11-2021_17-28-57.jpg",
+    ],
   );
 
   await createEvent(
@@ -2487,10 +2640,7 @@ async function createEvents(api: Api): Promise<void> {
       ],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_2176@20-11-2024_16-00-51.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_695@06-04-2022_11-15-05.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_951@20-12-2022_09-53-33.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_975@20-01-2023_15-05-29.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_211@18-12-2020_17-04-13.jpg",
     ],
   );
 
@@ -2507,10 +2657,9 @@ async function createEvents(api: Api): Promise<void> {
       ],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1950@21-08-2024_17-29-05.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_2478@21-04-2025_09-59-20.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1860@24-06-2024_10-11-39.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1757@27-04-2024_16-08-03.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_214@22-12-2020_10-00-03.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2042@28-09-2024_10-54-22.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1608@22-02-2024_09-30-45.jpg",
     ],
   );
 
@@ -2523,9 +2672,9 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["conference"].id, tags["contest"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1479@08-12-2023_17-30-37.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1741@17-04-2024_17-28-58.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_2584@23-06-2025_14-06-24.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_215@22-12-2020_13-00-03.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2126@30-10-2024_17-28-01.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1452@20-11-2023_12-20-08.jpg",
     ],
   );
 
@@ -2542,7 +2691,11 @@ async function createEvents(api: Api): Promise<void> {
         tags["data-science"].id,
       ],
     },
-    [],
+    [
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_216@23-12-2020_15-35-30.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1494@17-12-2023_20-02-48.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1201@30-05-2023_18-00-59.jpg",
+    ],
   );
 
   await createEvent(
@@ -2554,9 +2707,7 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["programming"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1646@04-03-2024_19-05-31.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_779@02-07-2022_12-04-42.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1112@30-03-2023_17-45-57.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_217@23-12-2020_18-00-04.jpg",
     ],
   );
 
@@ -2573,7 +2724,9 @@ async function createEvents(api: Api): Promise<void> {
         tags["programming"].id,
       ],
     },
-    [],
+    [
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_218@24-12-2020_11-40-00.jpg",
+    ],
   );
 
   await createEvent(
@@ -2585,9 +2738,10 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["concert"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_476@29-09-2021_16-30-04.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_467@24-09-2021_14-51-39.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1870@27-06-2024_13-23-50.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_219@25-12-2020_12-52-22.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1546@30-01-2024_16-01-35.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2589@26-06-2025_15-05-36.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2202@03-12-2024_09-05-12.jpg",
     ],
   );
 
@@ -2600,10 +2754,9 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["job-fair"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1022@14-02-2023_20-01-56.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1397@24-10-2023_13-43-02.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1328@12-09-2023_15-00-44.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_2574@17-06-2025_11-05-19.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_220@11-01-2021_15-29-21.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1186@16-05-2023_18-10-01.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1340@19-09-2023_09-47-01.jpg",
     ],
   );
 
@@ -2621,7 +2774,8 @@ async function createEvents(api: Api): Promise<void> {
       ],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_901@19-11-2022_14-30-09.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_221@13-01-2021_17-36-42.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_848@12-10-2022_16-30-36.jpg",
     ],
   );
 
@@ -2634,9 +2788,8 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["internship"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_2453@10-04-2025_12-33-02.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_2199@02-12-2024_09-09-01.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_587@17-01-2022_14-01-03.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_222@14-01-2021_18-00-09.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2495@29-04-2025_15-01-51.jpg",
     ],
   );
 
@@ -2649,9 +2802,7 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["sports"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_2592@28-06-2025_18-19-01.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1052@03-03-2023_15-30-23.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1159@22-04-2023_09-29-58.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_223@18-01-2021_16-21-55.jpg",
     ],
   );
 
@@ -2664,10 +2815,10 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["contest"].id, tags["sports"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1358@02-10-2023_14-15-18.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1207@05-06-2023_15-01-37.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1802@29-05-2024_09-10-15.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_2413@27-03-2025_19-09-38.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_224@19-01-2021_12-15-06.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2076@14-10-2024_14-21-22.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1023@15-02-2023_10-15-19.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_469@27-09-2021_20-00-05.jpg",
     ],
   );
 
@@ -2683,7 +2834,10 @@ async function createEvents(api: Api): Promise<void> {
         tags["artificial-intelligence"].id,
       ],
     },
-    [],
+    [
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_225@19-01-2021_17-49-12.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1837@13-06-2024_12-15-48.jpg",
+    ],
   );
 
   await createEvent(
@@ -2695,7 +2849,8 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["workshop"].id, tags["club-meeting"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1325@11-09-2023_11-16-56.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_226@20-01-2021_09-15-04.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1143@14-04-2023_15-31-10.jpg",
     ],
   );
 
@@ -2708,8 +2863,8 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["internship"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1643@03-03-2024_14-43-32.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_521@10-11-2021_09-01-29.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_227@20-01-2021_12-35-09.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_466@23-09-2021_16-32-51.jpg",
     ],
   );
 
@@ -2722,8 +2877,7 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["contest"].id, tags["startups"].id, tags["business"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1108@29-03-2023_15-31-33.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_2598@02-07-2025_11-59-57.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_228@20-01-2021_18-41-47.jpg",
     ],
   );
 
@@ -2736,9 +2890,8 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["programming"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1034@22-02-2023_13-32-23.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1310@31-08-2023_17-50-05.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_2175@20-11-2024_14-01-26.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_230@21-01-2021_16-22-30.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2560@10-06-2025_09-05-23.jpg",
     ],
   );
 
@@ -2750,7 +2903,9 @@ async function createEvents(api: Api): Promise<void> {
         "📣\n\n👇\n\n- take part in various brainstorm practices\n- perform activities that will help you to become a better comedian and actor\n\n✅The meetings will be run by one PhD student with relevant experience.\n\n🇷🇺👉Join the  if you think (or others think) you have a good sense of humor!",
       tagIds: [tags["workshop"].id],
     },
-    [],
+    [
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_231@22-01-2021_09-30-04.jpg",
+    ],
   );
 
   await createEvent(
@@ -2762,7 +2917,7 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["job-fair"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_2052@03-10-2024_14-11-19.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_232@22-01-2021_12-30-07.jpg",
     ],
   );
 
@@ -2779,7 +2934,10 @@ async function createEvents(api: Api): Promise<void> {
       ],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1341@19-09-2023_12-00-26.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_233@22-01-2021_13-54-21.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1395@24-10-2023_09-26-02.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_906@22-11-2022_18-01-50.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2490@25-04-2025_15-21-44.jpg",
     ],
   );
 
@@ -2792,9 +2950,9 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["language-learning"].id, tags["club-meeting"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1881@03-07-2024_13-20-25.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_2194@27-11-2024_15-56-37.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_2009@11-09-2024_12-01-24.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_234@22-01-2021_18-30-06.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1573@07-02-2024_09-33-22.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1314@01-09-2023_13-00-24.jpg",
     ],
   );
 
@@ -2807,7 +2965,9 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["game"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_2351@03-03-2025_21-30-22.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_235@27-01-2021_14-03-29.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2278@09-02-2025_12-17-39.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_786@28-07-2022_17-25-51.jpg",
     ],
   );
 
@@ -2819,7 +2979,10 @@ async function createEvents(api: Api): Promise<void> {
         "🧰 experienced frontend developers from Innopolis based startup - online academy Supra\n\nProject length: 1-3 months.\n\nWhat experience will help you:\n1. Frontend programming\n2. ReactJS experience\n3. Experience with Git\n4. Knowing GraphQL (ApolloClient) would be great.\n5. Self supportiveness and result orientation\n\n✅Desired outcome will be a test version of the account page, admin dashboard and several experimental features for online education\n\n👉Application and questions: ",
       tagIds: [tags["internship"].id],
     },
-    [],
+    [
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_236@27-01-2021_16-00-07.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1535@26-01-2024_14-36-54.jpg",
+    ],
   );
 
   await createEvent(
@@ -2831,10 +2994,10 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["business"].id, tags["startups"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_2575@17-06-2025_11-42-52.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_2072@09-10-2024_17-32-26.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1534@26-01-2024_12-30-22.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_2315@18-02-2025_17-29-54.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_238@01-02-2021_15-26-23.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1645@04-03-2024_16-05-27.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_544@25-11-2021_12-19-41.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2497@29-04-2025_17-02-57.jpg",
     ],
   );
 
@@ -2846,7 +3009,9 @@ async function createEvents(api: Api): Promise<void> {
         "📣\n\nVadim Mironov, the author of the book and the head of business analysis group InnoStage, will talk about how the book was created and how it can be useful for novice business analysts.\n\nThe event will be held in Zoom. \n\n📌Today, 16:30.\n🇷🇺Event language: Russian\n👉You can connect via this . Conference ID: 910 5180 4927.\n\n",
       tagIds: [tags["conference"].id, tags["business"].id, tags["lecture"].id],
     },
-    [],
+    [
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_241@04-02-2021_11-48-14.jpg",
+    ],
   );
 
   await createEvent(
@@ -2858,9 +3023,10 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["game"].id, tags["seminar"].id, tags["design"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_836@05-10-2022_12-06-49.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_2272@06-02-2025_10-04-58.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1290@22-08-2023_18-13-09.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_242@04-02-2021_16-58-23.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2586@24-06-2025_10-03-43.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1458@21-11-2023_16-45-14.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_913@28-11-2022_13-10-25.jpg",
     ],
   );
 
@@ -2873,10 +3039,9 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["contest"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_2027@19-09-2024_13-13-01.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_903@21-11-2022_16-55-44.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1645@04-03-2024_16-05-27.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_793@19-08-2022_13-19-38.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_244@08-02-2021_15-30-06.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1044@27-02-2023_16-41-41.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2539@28-05-2025_10-59-39.jpg",
     ],
   );
 
@@ -2889,7 +3054,9 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["job-fair"].id, tags["internship"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_605@28-01-2022_17-30-46.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_247@09-02-2021_15-00-04.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1601@16-02-2024_15-32-01.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_864@25-10-2022_16-27-20.jpg",
     ],
   );
 
@@ -2902,8 +3069,9 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["conference"].id, tags["job-fair"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1039@25-02-2023_11-01-34.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_863@25-10-2022_15-16-09.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_252@19-02-2021_15-35-54.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2556@08-06-2025_17-10-17.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2504@07-05-2025_13-02-51.jpg",
     ],
   );
 
@@ -2916,7 +3084,9 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["cybersecurity"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_916@29-11-2022_16-28-50.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_253@20-02-2021_12-22-06.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1700@25-03-2024_11-40-16.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_908@24-11-2022_17-54-47.jpg",
     ],
   );
 
@@ -2928,7 +3098,11 @@ async function createEvents(api: Api): Promise<void> {
         "📣- movie in English [Rus Sub]\n- movie in Russian [Eng Sub]\n- series of short films in Russian\n\n👉Please vote for your favorite films  by the end of Wednesday. One film for each language will be selected according to your vote.",
       tagIds: [tags["contest"].id],
     },
-    [],
+    [
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_259@23-02-2021_18-31-10.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2205@03-12-2024_13-34-32.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2010@11-09-2024_13-16-23.jpg",
+    ],
   );
 
   await createEvent(
@@ -2945,9 +3119,10 @@ async function createEvents(api: Api): Promise<void> {
       ],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_2451@09-04-2025_13-07-18.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1805@30-05-2024_18-27-56.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1834@11-06-2024_11-20-48.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_260@24-02-2021_15-00-12.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1703@27-03-2024_12-29-01.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1935@05-08-2024_12-15-28.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2163@15-11-2024_14-08-01.jpg",
     ],
   );
 
@@ -2963,7 +3138,10 @@ async function createEvents(api: Api): Promise<void> {
         tags["seminar"].id,
       ],
     },
-    [],
+    [
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_261@25-02-2021_13-49-47.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2485@24-04-2025_11-58-32.jpg",
+    ],
   );
 
   await createEvent(
@@ -2975,9 +3153,7 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["contest"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_2410@25-03-2025_17-38-25.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_2482@22-04-2025_13-58-02.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1267@19-07-2023_16-30-40.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_263@03-03-2021_09-51-22.jpg",
     ],
   );
 
@@ -2996,9 +3172,9 @@ async function createEvents(api: Api): Promise<void> {
       ],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_2604@05-07-2025_12-01-46.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_2070@09-10-2024_11-36-07.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1368@05-10-2023_16-01-36.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_264@03-03-2021_12-03-54.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1487@14-12-2023_16-30-28.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1569@06-02-2024_09-09-01.jpg",
     ],
   );
 
@@ -3011,10 +3187,7 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["club-meeting"].id, tags["talk"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1230@27-06-2023_19-01-32.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1269@21-07-2023_16-01-40.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1435@12-11-2023_12-01-44.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_2049@03-10-2024_09-40-56.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_265@03-03-2021_15-00-13.jpg",
     ],
   );
 
@@ -3027,7 +3200,10 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["volunteering"].id, tags["sports"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1090@23-03-2023_13-01-13.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_266@04-03-2021_15-09-03.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1121@05-04-2023_12-01-29.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2370@11-03-2025_11-04-57.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1753@26-04-2024_16-00-44.jpg",
     ],
   );
 
@@ -3040,7 +3216,8 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["sports"].id, tags["contest"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1302@30-08-2023_15-01-25.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_268@04-03-2021_18-05-24.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1163@24-04-2023_16-10-05.jpg",
     ],
   );
 
@@ -3053,9 +3230,9 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["volunteering"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_567@09-12-2021_17-55-11.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1759@28-04-2024_20-00-43.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1327@12-09-2023_12-01-59.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_269@05-03-2021_10-33-24.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2365@10-03-2025_16-46-47.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1678@13-03-2024_17-31-05.jpg",
     ],
   );
 
@@ -3068,10 +3245,9 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["sports"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1933@01-08-2024_15-03-01.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1791@24-05-2024_12-01-22.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_579@24-12-2021_17-48-01.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1148@18-04-2023_10-01-03.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_268@04-03-2021_18-05-24.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1565@04-02-2024_17-00-30.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2168@18-11-2024_12-14-44.jpg",
     ],
   );
 
@@ -3083,7 +3259,10 @@ async function createEvents(api: Api): Promise<void> {
         "📣The research is about analyzing the effect of tea drinking on the effectiveness and attentiveness of software developers.\n\nYou\'ll be required to spend 45 minutes solving programming tasks.\n\n👉More info & apply .",
       tagIds: [tags["programming"].id],
     },
-    [],
+    [
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_271@09-03-2021_13-00-19.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1471@30-11-2023_15-41-47.jpg",
+    ],
   );
 
   await createEvent(
@@ -3095,7 +3274,10 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["workshop"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_2384@15-03-2025_12-02-34.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_273@10-03-2021_16-25-58.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1373@08-10-2023_11-00-28.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1524@17-01-2024_15-45-18.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1879@02-07-2024_12-45-14.jpg",
     ],
   );
 
@@ -3107,7 +3289,11 @@ async function createEvents(api: Api): Promise<void> {
         "📣- volunteering\n- creative youth initiatives\n- youth media\n- patriotic upbringing\n- social lift development\n- sport & tourism\n- student clubs and unions\n- family values strengthening\n- prevention of negative effects in youth environment and intercultural relationships\n\n📌Application deadline:  April 7, 2021\n👉 For more info & application please inbox ",
       tagIds: [tags["volunteering"].id, tags["programming"].id],
     },
-    [],
+    [
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_274@11-03-2021_11-39-04.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_631@16-02-2022_09-01-28.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1270@23-07-2023_20-00-38.jpg",
+    ],
   );
 
   await createEvent(
@@ -3119,8 +3305,9 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["talk"].id, tags["club-meeting"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_2091@19-10-2024_14-01-58.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1943@13-08-2024_16-23-57.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_275@15-03-2021_11-06-25.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_705@09-04-2022_18-31-13.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2460@11-04-2025_17-32-26.jpg",
     ],
   );
 
@@ -3133,10 +3320,9 @@ async function createEvents(api: Api): Promise<void> {
       tagIds: [tags["game"].id, tags["sports"].id],
     },
     [
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_747@20-05-2022_15-44-15.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1527@22-01-2024_12-00-02.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_1474@04-12-2023_17-40-19.jpg",
-      "https://scrii.github.io/evops-dummy-photos/photos/photo_932@08-12-2022_16-02-03.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_276@16-03-2021_14-00-15.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_1492@16-12-2023_18-21-19.jpg",
+      "https://scrii.github.io/evops-dummy-photos/photos/photo_2213@06-12-2024_17-58-56.jpg",
     ],
   );
 }
